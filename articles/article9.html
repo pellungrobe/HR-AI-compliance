@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Article 9 – Guiding Questions</title>
+
+  <!-- Tabulator CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabulator-tables/6.3.0/css/tabulator.min.css">
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
+    .topbar { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+    input { padding:8px 10px; font-size:14px; min-width: 260px; }
+    a { text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <h1 style="margin:0;">Article 9</h1>
+    <a href="../index.html">← Back to index</a>
+    <input id="search" type="search" placeholder="Search in table…" />
+  </div>
+
+  <div id="table" style="margin-top:16px;"></div>
+
+  <!-- Tabulator JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tabulator-tables/6.3.0/js/tabulator.min.js"></script>
+  <script>
+    // 1) LOAD DATA (change this per page)
+    const dataUrl = "../data/art9.json";
+
+    // 2) Create table
+    const table = new Tabulator("#table", {
+      layout: "fitDataStretch",
+      responsiveLayout: "collapse",
+      pagination: true,
+      paginationSize: 20,
+      movableColumns: true,
+      placeholder: "No data loaded",
+      ajaxURL: dataUrl,
+      autoColumns: true,   // build columns from JSON keys automatically
+    });
+
+    // 3) Simple global search (filters rows if any cell contains the text)
+    const search = document.getElementById("search");
+    search.addEventListener("input", () => {
+      const q = search.value.trim().toLowerCase();
+      if (!q) {
+        table.clearFilter(true);
+        return;
+      }
+      table.setFilter((rowData) => {
+        return Object.values(rowData).some(v =>
+          String(v ?? "").toLowerCase().includes(q)
+        );
+      });
+    });
+  </script>
+</body>
+</html>
