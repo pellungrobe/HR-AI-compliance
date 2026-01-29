@@ -1,0 +1,918 @@
+{
+  "article": "11",
+  "sheet": "GQs_Art.11(+ Annex IV)",
+  "requirement": "Art. 11: Technical Documentation + Annex IV\n\nRecital 71\nClarification about Technical Documentation:\nHaving comprehensible information on how high-risk AI systems have been developed and how they perform throughout their lifetime is essential to enable traceability of those systems, verify compliance with the requirements under this Regulation, as well as monitoring of their operations and post market monitoring. This requires keeping records and the availability of technical documentation, containing information which is necessary to assess the compliance of the AI system with the relevant requirements and facilitate post market monitoring. Such information should include the general characteristics, capabilities and limitations of the system, algorithms, data, training, testing and validation processes used as well as documentation on the relevant risk-management system and drawn in a clear and comprehensive form. The technical documentation should be kept up to date, appropriately throughout the lifetime of the AI system. Furthermore, highrisk AI systems should technically allow for the automatic recording of events, by means of logs, over the duration of the lifetime of the system.\n\nTrasversal Questions",
+  "rows": [
+    {
+      "Compliance checklist": "●      11.1 The technical documentation for the high-risk AI system was prepared before the system was placed on the market / put into service, is maintained up-to-date, it includes at least all elements required by Annex IV, and is presented in a clear and comprehensive form enabling assessment of compliance with Section 2 requirements.",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   11.1.1  Did you prepare the technical documentation before placing the system on the market or putting it into service, in a way that it is clear and comprehensive and includes all elements in Annex IV?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  11.1.2  Did you identified any Annex IV items or Section 2 areas that could not be fully completed?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  11.1.3  How frequently is the technical documentation reviewed and updated?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   11.1.4  Do you update the technical documentation whenever there are architectural changes or integration of third-party components?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   11.1.5  Was there an internal assessment on the technical documentation comprehensiveness (e.g. cross-departments review)?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●     11.2 [Art.11.2 does not apply as the system in analysis is not referred in Annex I, Section A but in Annex III.4(a)]",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "///////////////////////////////////////////////////",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "● 11.3 The provider follows the delegated acts of the Commission to amend Annex IV and promptly update the technical documentation accordingly.",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   11.3.1  Has the Commission adopted any delegated acts in accordance with Article 97 in order to amend Annex IV?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   11.3.2  What specific changes to Annex IV are introduced by the delegated act(s) and which parts of your technical documentation are affected?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● 11.3.3    Does the updated technical documentation still provide all the information necessary to assess the compliance with all requirements set out Section 2?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "Annex IV.1. The technical documentation includes a general description of:",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": []
+    },
+    {
+      "Compliance checklist": "●      (a) the intended purpose, the name of the provider and the version of the AI system reflecting its relation to previous versions",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.1.a.1 Write the intended purpose, the name of the provider and the version of the AI systems reflecting its relation to previos versions.",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (b) how the AI system interacts with, or can be used to interact with, hardware or software, including with other AI systems, that are not part of the AI system itself, where applicable",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.b.1   Write how the AI system interacts with (or can be used to interact with) components that are not part of the system itself. Such components might be hardware or software, including other AI systems.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.b.2 Could such interactions affect system functionality or compliance with Section 2 requirements? If yes, how? How do you address possible non-compliance?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (c) the versions of relevant software or firmware, and any requirements related to version updates",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.c.1   Write the versions of relevant software and firmware used by the AI system and its requirements and procedures related to version updates.",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (d) all the forms in which the AI system is placed on the market or put into service, such as software packages embedded into hardware, downloads, or APIs",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.d.1   Write all the forms in which the AI system is placed on the market or put into service such as software packages embedded into hardware, downloads, or APIs.",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (e) the hardware on which the AI system is intended to run",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.e.1 Describe the hardware on which the AI system is intended to run.",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (f) where the AI system is a component of products, photographs or illustrations showing external features, the marking and internal layout of those products",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.1.f.1     Provide photographs/illustrations showing external markings, features and internal layout of the products the AI system is embedded in.",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (g) a basic description of the user-interface provided to the deployer",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.g.1  Describe the UI provided to the deployer. Consider providing sample screenshots, walkthroughs and UI examples mapped to representative deployer use-cases. Consider describing the UI elements that raise awareness about non visualized informations by-default (e.g., pruned list of candidates).",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.g.2   Does your description include technical details of the UI (e.g. development language details, integration of user feedbacks through input forms)?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.g.3   Does your description cover limitations of your AI system, so that deployer can address anomalies, dysfunctions and unexpected anomalies?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (h) instructions for use for the deployer, and a basic description of the user-interface provided to the deployer, where applicable\n[Also refer to Article 13.2-3]",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●    Annex IV.1.h.1  Provide the instructions for use of the high-risk AI system for the deployer.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.h.2  Write a basic description of the user-interface provided to the deployer. \n[Also refer to Annex IV.1.g]",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.1.h.3  Does your instruction description consider the level of technical proficiency of the deployer?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "Annex IV.2. The technical documentation includes a detailed description of the elements of the AI system and of the process for its development, including:",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": []
+    },
+    {
+      "Compliance checklist": "●      (a) the methods and steps performed for the development of the AI system, including, where relevant, recourse to pre-trained systems or tools provided by third parties and how those were used, integrated or modified by the provider",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   Annex IV.2.a.1   What are the sequential development phases for this AI system (i.e., requirements gathering, data collection, annotation, prototyping, model selection, fine-tuning, evaluation), and which concrete artifacts (documents, datasets, model checkpoints, scripts, test reports) were produced at each phase?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   Annex IV.2.a.2 Which pre-trained systems or third-party tools, including General Purpose AI models, were used (vendor, model name/version), and how were they integrated, configured, or modified for your system?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   Annex IV.2.a.3 Has the third-party company that provided the AI model signed the Code of Conduct for General Purpose AI models?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.2.a.4  In absence of training and fine-tuning, what steps did you take to adapt a pre-trained model to your specific recruitment context at inference time (prompt design, input data format)?",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.2.a.5   In case you use in-context learning, did you choose a fixed protocol (e.g. fixed prompts) for each candidate?  Are those prompts documented and versioned? Consider showing the prompts or template used.",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.a.6     For any configurable inference parameters of pre-trained models (i.e., temperature, top-k, top-p, beam size), which parameter values were chosen for deployment, and why were they chosen?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.2.a.7    How do you track and enforce version coherence of third-party components in time across development?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (b) the design specifications of the system, namely the general logic of the AI system and of the algorithms; the key design choices including the rationale and assumptions made, including with regard to persons or groups of persons in respect of who, the system is intended to be used; the main classification choices; what the system is designed to optimise for, and the relevance of the different parameters; the description of the expected output and output quality of the system; the decisions about any possible trade-off made regarding the technical solutions adopted to comply with the requirements set out in Chapter III, Section 2;",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   Annex IV.2.b.1  Write the general logic of the AI system and of the algorithms employed, as well as the assumptions about the context of use that guided the design of the AI system.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.2  Which is the specific task you expect the AI system to perform? What is its function?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   Annex IV.2.b.3  Which persons or groups of persons will interact with or be affected by the system, and what types of data will be collected and processed for each group?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●   Annex IV.2.b.4  Which persons or groups (demographic, linguistic, disability, cultural, or other subgroups) is the system not trained to recognise or handle appropriately, and what evidence supports this limitation?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.5  What is the target objective of the system (i.e., ranking score, accuracy), how is it computed, and why was it chosen? Does its computation address possible violations of fundamental rights? Do you have visibility on the whole computation process, including the substasks performed by third-party components?",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.6 Which business KPIs does the system (including third-party components) optimise for (e.g., time-to-hire, cost, interview conversion), how did you verify these KPIs do not violate fundamental rights (e.g., non-discrimination, equal-opportunity)?",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.7  What learning paradigms apply to (each component of) the A.I. system? (i.e., supervised classification/regression, ranking, unsupervised clustering, generative LLM inference)? If multiple paradigms or component exist, list them all.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.8   Which data preparation steps were taken for all variables (target and features)? For each variable, what type/format was used (e.g. continuous, categorical), how were continuous variables discretised or bucketed, and why were those decisions taken?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.9  How was output quality evaluated (which metrics, datasets, validation procedures), why were those metrics chosen, what acceptance thresholds were set, and what is the remediation procedure when performance falls below thresholds?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.10 Does the system include generative AI components?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     If yes, where are they used and for what purposes within recruitment?",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     What comparative experiments were conducted with non-generative alternatives?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     Which datasets and metrics were used, and what results justified selecting the generative approach?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.11 Why is the overall chosen technical solution the best justified option for the intended recruitment purpose and for complying with Chapter III, Section 2 requirements?",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.12  Which experimental comparisons between technical solutions were performed (i.e., w.r.t. expected functioning, expected performance, impact on FRIA) and what are the key results? Which alternatives were rejected and why?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.13 In case your AI system relies on third parties APIs, meaning that the internals of such models cannot be accessed or modified, then how do you ensure that changes in the APIs do not lead to inconsistent results downstream?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     If you allow for inconsistent results in a large number of trials, are they negligible? How do you define the threshold for specifying it so?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.14 Did you assess the residual risk of the AI system? Is this explicitly communicated to deployers and affected persons (e.g., through the information for use and/or UI design)?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.b.15 Which trade-offs between Chapter III, Section 2 requirements were identified (i.e., accuracy vs explainability, automation vs human oversight), what implementation choices did you make to balance them, and what (if anything) was intentionally left out? Is this explicitly communicated to deployers and affected persons (e.g., through the information for use and/or UI design)?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (c) the description of the system architecture explaining how software components build on or feed into each other and integrate into the overall processing; the computational resources used to develop, train, test and validate the AI system",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●  Annex IV.2.c.1    Describe the system architecture, its components and how they feed into each other and integrate into the overall processing.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.c.2     Which in-house or third-party hardware and/or cloud resources (CPUs, GPUs, memory, storage) supported each stage, and how do you ensure resource availability and reproducibility?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.c.3     Do the hardware and/or cloud resources come from external vendors? If yes, do they provide reports on the resource usage?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.c.4     Can you indicate the computational resources used to develop, test and validate the AI system? Please also include computational resources for additional inference (e.g. long prompts, in-context learning, RAG).",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.c.5     How do you isolate environments (development, testing, production) and prevent configuration drift?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.c.6  If you consider environmental sustainability in the development, testing and deployment of your system, list the computational resources of the different tested solutions with respect to the chosen one.",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (d) where relevant, the data requirements in terms of datasheets describing the training methodologies and techniques and the training data sets used, including a general description of these data sets, information about their provenance, scope and main characteristics; how the data was obtained and selected; labelling procedures (e.g. for supervised learning), data cleaning methodologies (e.g. outliers detection)\n[Not applicable to our specific case, given the abscence of training]",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "//////////////////////////////////////////////////////////////////////////////////",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (e) assessment of the human oversight measures needed in accordance with Article 14, including an assessment of the technical measures needed to facilitate the interpretation of the outputs of AI systems by the deployers, in accordance with Article 13(3), point (d)",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.e.1     Describe and justify the assessment of all the human oversight measures required in Article 14.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.e.2 Describe which Human-Machine Interaction elements (pause/stop/override/defer, feedback mechanisms, shutdown) you defined and how are they implemented.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.e.3 When emergent risks to harm, safety, or fundamental rights occur, which operational parameters (such as latency budgets or workload/queue constraints) are required to guarantee timely human intervention?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "[For completeness, refer also to guiding questions of Art. 14.]",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.e.4     Describe and justify the assessment of all the technical measures needed to facilitate the interpretation of the output by the deployers.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○ Describe the output of the system, including confidence/uncertainty, limitations, rationale/explanation, data-quality flags if present.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○ Describe the implemented interpretability tools (e.g., calibrated scores, example-based aids, explanations) and their limitations.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.e.5     How did you assess whether the deployers were able to properly interpret the output of the AI system?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○ What tests/drills/usability studies demonstrate that overseers can detect anomalies and override/stop the system?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○ What measures against automation bias/over-reliance are in place, and what evidence shows they work (e.g., A/B or usability results)?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.e.6  When the model/data/UI changes, how are oversight and interpretability re-assessed and re-documented?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (f) where applicable, a detailed description of pre-determined changes to the AI system and its performance, together with all the relevant information related to the technical solutions adopted to ensure continuous compliance of the AI system with the relevant requirements set out in Chapter III, Section 2",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.f.1     Describe the foreseeable pre-determined changes to the AI system.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○  Have you classified types of predetermined changes (data, model, thresholds, feature pipeline, UI/HMI, integrations/APIs, third-party components, security patches) and mapped each to documentation locations?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○  What is the boundary between a pre-determined change and a “substantial modification” that forces new conformity steps? State criteria and decision path for each identified foreseeable pre-determined change.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.f.2     If present, describe the self-learning mechanisms (i.e., incremental model updates, threshold adjustments) that were approved during initial conformity assessment.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○  For self-learning updates (online/incremental), are learning modes bounded (on/off by default, rate limits, whitelist features), and how are drift triggers handled?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○  Are there tests performed to prove that the adjustment due to self-learning mechanisms do not impact the initial conformity assessment?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○   For each self-learning mechanism, what are the guardrails: data sources allowed, update cadence, max parameter drift, performance floors (accuracy/robustness/fairness/security), and compatibility constraints (e.g., model↔preprocessor versions)?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○   What are the automatic rollback and safe-fail/hold conditions if guardrails are breached?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.f.3     In case of pre-determined changes to the system, how is compliance re-validated?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○ Which type of changes are automatically implemented and which ones require human sign-off?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.f.4 After compliance re-assessment, how did you update the technical documentation, post market monitoring plan and/or instructions for use?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○ If pre-determined changes occurred compared to a previous version of the system, document any tradeoff in alignment with the requirements set out in Chapter III, Section 2 (e.g. reduction in accuracy, robustness or cybersecurity, worsening of discriminatory impacts) providing before/after evidence.",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (g) the validation and testing procedures used, including information about the validation and testing data used and their main characteristics; metrics used to measure accuracy, robustness and compliance with other relevant requirements set out in Chapter III, Section 2, as well as potentially discriminatory impacts; test logs and all test reports dated and signed by the responsible persons, including with regard to predetermined changes as referred to under point (f)",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.g.1     Describe and justify the validation and testing procedures you used.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.g.2     Describe and justify the validation and testing data you used.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○ Describe the target variable in validation and testing data.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○ Describe the data annotation and labelling procedures, including interactive techniques and crowdsourcing tasks if used.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.g.3 What are the shared criteria given to annotators for data labelling (e.g., which are the guidelines for assessing \"best\" candidate) and how is this affected by their subjectivity?",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.g.4 Has data labelling performed by domain experts (i.e. recruiters)?",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.g.5     Do you find that your labelling procedure falls outside of the scope of objective labelling? (i.e., who defines the score/ ground truth? Is it a subjective ground truth? Do you assess the objectivity of such ground truth? is the final user of the AI system the original labeler?)",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.g.6     Which metrics did you use to quantitatively evaluate at test time accuracy, robustness and compliance with other relevant requirements set out in Chapter III, Section 2? Are such metrics able to fully capture both potential and limitations of the AI systems?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.g.7     Include all test logs and reports regarding validation and testing procedures dated and signed by the responsible persons.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "● Annex IV.2.g.8     Include all test logs and test reports regarding predetermined changes to the AI system dated and signed by the responsible persons.",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      (h) cybersecurity measures put in place",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.h.1     Describe the cybersecurity measures did you put in place to ensure the resilience of the system?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.2.h.2     Describe the cybersecurity vulnerabilities of your system.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "Please Refer to Art.15 (5) for detailed cybersecurity guiding questions.",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "Annex IV.3-9. A detailed information and/or description about:",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": []
+    },
+    {
+      "Compliance checklist": "●      IV.3.(1°part) The monitoring, functioning and control of the AI system, in particular with regard to: its capabilities and limitations in performance, including the degrees of accuracy for specific persons or groups of persons on which the system is intended to be used and the overall expected level of accuracy in relation to its intended purpose.",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.1   Describe and justify the monitoring, functioning and control of the AI system.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.2     Provide a detailed description of its capabilities and limitations in performance.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.3     Provide a detailed description of the degree of accuracy and its continuous assessment for specific persons or groups of persons on which the system is intended to be used.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.4  In case of accuracy degradation, detail the mitigation procedure in order to recover the allowed degree of accuracy.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.5     Did you document the degree of accuracy reached, overall and for specific group, in each sub-task of your application (e.g. CV parsing and Candidate Scoring)?",
+          "In-Context": "X"
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.6     What are the minimum confidence thresholds below which results are deemed unreliable in the real intended context? And why?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      IV.3.(2°part) The monitoring, functioning and control of the AI system, in particular with regard to: the foreseeable unintended outcomes and sources of risks to health and safety, fundamental rights and discrimination in view of the intended purpose of the AI system.",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.7    How will you monitor and control the sources of risks to health, safety and fundamental rights in view of the intended purpose of the AI system?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.8     Which unintended outcomes, environmental or contextual factors have you identified that could degrade performance and/or harm safety?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.9     How will you monitor and control the foreseeable unintended outcomes in view of the intended purpose of the AI system?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      IV.3.(3°part) The monitoring, functioning and control of the AI system, in particular with regard to: the human oversight measures needed in accordance with Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of AI systems by the deployers.",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.10     Did you describe all human oversight measures needed in accordance with Article 14?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "[For completeness, refer also to guiding questions of Art. 14.]",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.11     Did you describe and justify all the technical measures needed to facilitate the interpretation of the output by the deployers?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.12     For instance, did you consider any explainability techniques that can facilitate the interpretation of the output?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "[For explainability, refer also to guiding questions of Art. 13.]",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.13     Did you consider any other interpretable-by-design models that can facilitate the interpretation of the output?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      IV.3(4°part) The monitoring, functioning and control of the AI system, in particular with regard to: specifications on input data, as appropriate.",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.16     Describe the specifications on the input data that you expect the AI system to be fed with.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.17     Have you verified that the input data used in practice fall within the boundaries (formats, ranges, sources, statistical properties) defined during validation and testing, and that they are sufficiently representative to ensure that the expected performance and risk profile of the AI system remain valid?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.18     Given your design, do you anticipate any deviations in the input data relative to the validation and testing data? How are these deviations detected and addressed?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.19  Do you expect conditions under which the input data may present characteristics such that the AI system will treat them as anomalies?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.3.20     Which data are expressively prohibited (e.g. in terms of format and/or content), and how are violations detected and logged?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      IV.4. Appropriateness of the performance metrics for the specific AI system",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.4.1   Describe and justify the choice of the performance metrics used to evaluate and monitor the AI system.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     Are they appropriate for the intended purpose of the system?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     What are their limitations?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     How did you define thresholds for each metric (including fairness metrics)?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     How do you define acceptable risk levels for each metric?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     How do the chosen metrics relate to the risks identified under Article 9 (risk management system)?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     Do the metrics capture performance across different persons or groups of persons on which the system is intended to be used?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     How will the metrics be monitored and updated post-market to detect drift or emerging risks?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      IV.5 Risk management system in accordance with Article 9.",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.5.1     Describe and justify the risk management system in accordance with Article 9.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "[For completeness, refer also to guiding questions of Art. 9]",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      IV.6. Relevant changes made by the provider to the system through its lifecycle",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.6.1     How do you identify relevant changes?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     What is your definition of relevant change w.r.t the context of application?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     How do you distinguish relevant changes from minor changes?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     For each change what do you record and log? (i.e., date, actor, moment in the life cycle, justification)",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.6.2     As a provider of the AI system, did you make any relevant changes to the AI system?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     If so, describe and justify them.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "○     How do these changes impact the compliance with the requirements set out in Chapter III, Section 2?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      IV.7. Harmonised standards published in the Official Journal of the European Union apply in full or in part to your high risk AI system.\nIf no such harmonised standards have been applied, a detailed description of the solutions adopted to meet the requirements of Chapter III, Section 2, including a list of other relevant standards and technical specifications applied has been provided.",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.7.1     Which harmonised standards published in the Official Journal of the European Union apply in full or in part to your high-risk AI system?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.7.2     If no such harmonised standards have been applied, or applied only partially, have you provided a detailed description of the solutions adopted to meet the requirements of Chapter III, Section 2?",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      IV.8. A copy of the EU Declaration of Conformity referred to in Art. 47",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.8.1     Include a copy of the EU Declaration of Conformity (Art. 47)",
+          "In-Context": ""
+        }
+      ]
+    },
+    {
+      "Compliance checklist": "●      IV.9. System in place to evaluate the AI system performance in the post-market phase in accordance with Article 72, including the post-market monitoring plan referred to in Article 72(3)",
+      "Guiding Questions": "",
+      "In-Context": "",
+      "_children": [
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.9.1     How did you evaluate the AI system performance in the post-market phase (Article 72)?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "[For completeness, refer also to guiding questions of Art. 12 regarding record-keeping.]",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.9.2     What is your market monitoring plan (Article 72(3))? Describe it and justify the choice of the specific plan (e.g., in terms of attention points, frequency, metrics employed, human involvement, ect).",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.9.3 Describe how the monitoring plan detects data drift, performance degradation, or emerging risks to health, safety, or fundamental rights.",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.9.4 What mechanisms are in place to ensure that monitoring results feed back into the risk management system (Art. 9) and trigger corrective actions if needed?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "●Annex IV.9.5 How do you integrate feedback from deployers, users, or incident reports (Art. 73) into your post-market evaluation?",
+          "In-Context": ""
+        },
+        {
+          "Compliance checklist": "",
+          "Guiding Questions": "If the AI system has been developed by integrating GPAI models, what transparency measures have been adopted, taking into account the specific characteristics of such models? What technical measures and contractual safeguards have been put in place?",
+          "In-Context": ""
+        }
+      ]
+    }
+  ]
+}
