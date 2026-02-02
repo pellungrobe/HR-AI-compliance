@@ -70,6 +70,11 @@
           `ERROR: Cannot load ${jsonUrl} (HTTP ${resp.status})`;
         return;
       }
+
+      function hasChildren(rowData){
+        return Array.isArray(rowData?._children) && rowData._children.length > 0;
+      }
+      
       const payload = await resp.json();
 
       // Requirement block (top, like Excel merged cell / header area)
@@ -90,6 +95,12 @@
         dataTree: true,
         dataTreeChildField: "_children",
         dataTreeStartExpanded: false,
+
+        dataTreeElement: function(row, level){
+          const data = row.getData();
+          if (!Array.isArray(data?._children) || data._children.length === 0) return "";
+          return "<span style='display:inline-block; width:12px;'>▸</span>";
+        },
 
         columns: [
           {
