@@ -55,6 +55,10 @@ a {
   background-color: #e6ecfa;
 }
 
+.tabulator-cell div {
+  line-height: 1.6;
+}
+
 .tabulator-cell {
   padding: 10px;
 }
@@ -178,7 +182,7 @@ a {
         dataTreeElement: function(row, level){
           const data = row.getData();
           if (!Array.isArray(data?._children) || data._children.length === 0) return "";
-          return "<span style='display:inline-block; width:12px;'>▸</span>";
+          return "<span style='display:inline-block; width:14px; font-weight:600; color:#003399;'>▸</span>";
         },
 
         columns: [
