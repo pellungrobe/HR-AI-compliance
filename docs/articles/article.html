@@ -134,112 +134,144 @@ a {
       });
     }
 
-    async function init() {
-      const articleNum = getArticleNumberFromUrl();
+  async function init() {
+    const articleNum = getArticleNumberFromUrl();
 
-      if (articleNum === null) {
-        document.title = "Article – Guiding Questions";
-        document.getElementById("articleTitle").textContent = "Article (missing parameter)";
-        document.getElementById("requirement").textContent =
-          "ERROR: Missing article number in URL.\n\nUse: article.html?a=9 (or ?a=10, etc.)";
-        return;
-      }
-
-      // Update page title/heading like your dedicated files
-      document.title = `Article ${articleNum} – Guiding Questions`;
-      document.getElementById("articleTitle").textContent = `Article ${articleNum}`;
-
-      // EXACT naming convention you requested:
-      const jsonUrl = `../data/art${articleNum}.json`;
-
-      // Load the JSON (contains requirement + rows)
-      const resp = await fetch(jsonUrl);
-      if (!resp.ok) {
-        document.getElementById("requirement").textContent =
-          `ERROR: Cannot load ${jsonUrl} (HTTP ${resp.status})`;
-        return;
-      }
-
-      const payload = await resp.json();
-
-      // Requirement block (top, like Excel merged cell / header area)
+    if (articleNum === null) {
+      document.title = "Article – Guiding Questions";
+      document.getElementById("articleTitle").textContent = "Article (missing parameter)";
       document.getElementById("requirement").textContent =
-        payload.requirement || "(No requirement text found in JSON)";
+        "ERROR: Missing article number in URL.\n\nUse: article.html?a=9 (or ?a=10, etc.)";
+      return;
+    }
 
-      const cleanRows = stripEmptyChildren(payload.rows || []);
+    // Update page title/heading
+    document.title = `Article ${articleNum} – Guiding Questions`;
+    document.getElementById("articleTitle").textContent = `Article ${articleNum}`;
 
-      // Build table
-      const table = new Tabulator("#table", {
-          data: cleanRows,
-        layout: "fitDataStretch",
-        responsiveLayout: false,
-        pagination: false,
-        movableColumns: true,
-        clipboard: true,
-        placeholder: "No rows to display",
+    const jsonUrl = `../data/art${articleNum}.json`;
 
-        dataTree: true,
-        dataTreeChildField: "_children",
-        dataTreeStartExpanded: false,
+    // Load the JSON (contains requirement + rows)
+    const resp = await fetch(jsonUrl);
+    if (!resp.ok) {
+      document.getElementById("requirement").textContent =
+        `ERROR: Cannot load ${jsonUrl} (HTTP ${resp.status})`;
+      return;
+    }
 
-        // Keep your tree icon, but leaf rows won't have _children anymore (stripEmptyChildren)
-        dataTreeElement: function(row, level){
-          const data = row.getData();
-          if (!Array.isArray(data?._children) || data._children.length === 0) return "";
-          return "<span style='display:inline-block; width:14px; font-weight:600; color:#003399;'>▸</span>";
+    const payload = await resp.json();
 
-        },
+    // Requirement block
+    document.getElementById("requirement").textContent =
+      payload.requirement || "(No requirement text found in JSON)";
 
-        columns: [
-          {
-            title: "Compliance checklist",
-            field: "Compliance checklist",
-            formatter: wrapFormatter,
-            widthGrow: 2,
-            headerSort: false,
-            frozen: true,
-            variableHeight: true
-            },
-          {
-            title: "Guiding Questions",
-            field: "Guiding Questions",
-            formatter: wrapFormatter,
-            widthGrow: 3,
-            headerSort: false,
-            variableHeight: true
+    // Preprocess: strip empty _children (as before)
+    const cleanRows0 = stripEmptyChildren(payload.rows || []);
+
+    // NORMALIZE: ensure keys exist and values are strings (no null/undefined)
+    function normalizeRows(rows){
+      if (!Array.isArray(rows)) return rows;
+      return rows.map(r => {
+        const row = {...r};
+        // ensure expected fields exist and are strings
+        const KEYS = ["Compliance checklist", "Guiding Questions"];
+        KEYS.forEach(k => {
+          if (!(k in row) || row[k] === null || row[k] === undefined) {
+            row[k] = "";
+          } else {
+            row[k] = String(row[k]);
           }
-        ]
-      });
-
-      // Global search across ALL visible text fields (parents + children)
-      const search = document.getElementById("search");
-      search.addEventListener("input", () => {
-        const q = search.value.trim().toLowerCase();
-        if (!q) {
-          table.clearFilter(true);
-          return;
-        }
-
-        table.setFilter((rowData) => {
-          const parentHit = Object.values(rowData).some(v =>
-            String(v ?? "").toLowerCase().includes(q)
-          );
-          if (parentHit) return true;
-
-          const kids = rowData._children || [];
-          return kids.some(k =>
-            Object.values(k).some(v =>
-              String(v ?? "").toLowerCase().includes(q)
-            )
-          );
         });
+        // recurse
+        if (Array.isArray(row._children)) {
+          row._children = normalizeRows(row._children);
+        }
+        return row;
       });
     }
 
-    init().catch(err => {
-      document.getElementById("requirement").textContent =
-        "ERROR initializing page: " + err;
+    const cleanRows = normalizeRows(cleanRows0);
+
+    // DEBUG: open devtools console, check this output first
+    console.log("cleanRows (sample):", JSON.parse(JSON.stringify(cleanRows.slice(0,6))));
+
+    // Build table (same options, but with a small rowFormatter to avoid collapsed heights)
+    const table = new Tabulator("#table", {
+      data: cleanRows,
+      layout: "fitDataStretch",
+      responsiveLayout: false,
+      pagination: false,
+      movableColumns: true,
+      clipboard: true,
+      placeholder: "No rows to display",
+
+      dataTree: true,
+      dataTreeChildField: "_children",
+      dataTreeStartExpanded: false,
+
+      dataTreeElement: function(row, level){
+        const data = row.getData();
+        if (!Array.isArray(data?._children) || data._children.length === 0) return "";
+        return "<span style='display:inline-block; width:14px; font-weight:600; color:#003399;'>▸</span>";
+      },
+
+      // small rowFormatter to ensure rows have visible height
+      rowFormatter: function(row) {
+        const el = row.getElement();
+        // give a minimum height to avoid invisible content due to CSS/layout oddities
+        el.style.minHeight = "36px";
+      },
+
+      columns: [
+        {
+          title: "Compliance checklist",
+          field: "Compliance checklist",
+          formatter: wrapFormatter,
+          widthGrow: 2,
+          headerSort: false,
+          frozen: true,
+          variableHeight: true
+        },
+        {
+          title: "Guiding Questions",
+          field: "Guiding Questions",
+          formatter: wrapFormatter,
+          widthGrow: 3,
+          headerSort: false,
+          variableHeight: true
+        }
+      ]
     });
-  </script>
+
+    // Search across parents + children (unchanged)
+    const search = document.getElementById("search");
+    search.addEventListener("input", () => {
+      const q = search.value.trim().toLowerCase();
+      if (!q) {
+        table.clearFilter(true);
+        return;
+      }
+
+      table.setFilter((rowData) => {
+        const parentHit = Object.values(rowData).some(v =>
+          String(v ?? "").toLowerCase().includes(q)
+        );
+        if (parentHit) return true;
+
+        const kids = rowData._children || [];
+        return kids.some(k =>
+          Object.values(k).some(v =>
+            String(v ?? "").toLowerCase().includes(q)
+          )
+        );
+      });
+    });
+  }
+
+  init().catch(err => {
+    document.getElementById("requirement").textContent =
+      "ERROR initializing page: " + err;
+  });
+
 </body>
 </html>
