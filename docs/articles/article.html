@@ -190,9 +190,9 @@ a {
             title: "Compliance checklist",
             field: "Compliance checklist",
             formatter: function(cell){
-                const v = cell.getValue();
-                if (!v) return "";
-                return `<strong>${v}</strong>`;
+            const wrapped = wrapFormatter(cell);
+            if (!wrapped) return "";
+            return wrapped.replace(">", "><strong>").replace("</div>", "</strong></div>");
             },
             widthGrow: 2,
             headerSort: false,
