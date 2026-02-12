@@ -57,10 +57,14 @@ a {
 
 .tabulator-cell {
   padding: 10px;
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
 }
 
 .tabulator-cell div {
   line-height: 1.6;
+  white-space: normal !important;
 }
   </style>
 </head>
@@ -164,11 +168,10 @@ a {
 
       const cleanRows = stripEmptyChildren(payload.rows || []);
 
-      // Build table
-      const table = new Tabulator("#table", {
+        const table = new Tabulator("#table", {
         data: cleanRows,
-        layout: "fitColumns",
-        responsiveLayout: "collapse",
+        layout: "fitDataStretch",
+        responsiveLayout: false,
         pagination: false,
         movableColumns: true,
         clipboard: true,
@@ -178,36 +181,26 @@ a {
         dataTreeChildField: "_children",
         dataTreeStartExpanded: false,
 
-        // Keep your tree icon, but leaf rows won't have _children anymore (stripEmptyChildren)
-        dataTreeElement: function(row, level){
-          const data = row.getData();
-          if (!Array.isArray(data?._children) || data._children.length === 0) return "";
-          return "<span style='display:inline-block; width:14px; font-weight:600; color:#003399;'>▸</span>";
-
-        },
-
         columns: [
-          {
+            {
             title: "Compliance checklist",
             field: "Compliance checklist",
-            formatter: function(cell){
-                const v = cell.getValue();
-                if (!v) return "";
-                return `<strong>${v}</strong>`;
-            },
+            formatter: wrapFormatter,
             widthGrow: 2,
             headerSort: false,
-            frozen: true
-          },
-          {
+            frozen: true,
+            variableHeight: true
+            },
+            {
             title: "Guiding Questions",
             field: "Guiding Questions",
             formatter: wrapFormatter,
             widthGrow: 3,
-            headerSort: false
-          }
+            headerSort: false,
+            variableHeight: true
+            }
         ]
-      });
+        });
 
       // Global search across ALL visible text fields (parents + children)
       const search = document.getElementById("search");
