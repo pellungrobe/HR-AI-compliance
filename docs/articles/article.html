@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Article 15 – Guiding Questions</title>
+  <title>Article – Guiding Questions</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabulator-tables/6.3.0/css/tabulator.min.css">
   <style>
@@ -34,7 +34,7 @@
 </head>
 <body>
   <div class="topbar">
-    <h1 style="margin:0;">Article 15</h1>
+    <h1 id="articleTitle" style="margin:0;">Article</h1>
     <a href="../index.html">← Back to index</a>
     <input id="search" type="search" placeholder="Search in table…" />
   </div>
@@ -48,8 +48,25 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tabulator-tables/6.3.0/js/tabulator.min.js"></script>
   <script>
-    // CHANGE THIS PER ARTICLE:
-    const jsonUrl = "../data/art15.json";
+    // --------- IMPORTANT: JSON naming convention ----------
+    // For article N, the JSON file is: ../data/artN.json
+    // Example: Article 9 -> ../data/art9.json
+
+    function getArticleNumberFromUrl() {
+      // Supports both:
+      //   article.html?a=9
+      //   article.html?article=9
+      const params = new URLSearchParams(window.location.search);
+      let raw = (params.get("a") || params.get("article") || "").trim();
+
+      if (!raw) return null;
+
+      // Accept "09" too
+      const n = parseInt(raw, 10);
+      if (!Number.isFinite(n) || n <= 0) return null;
+
+      return n; // integer
+    }
 
     // Cell formatter: preserve newlines + wrap like Excel
     function wrapFormatter(cell) {
@@ -62,7 +79,43 @@
       return `<div style="white-space:pre-wrap; line-height:1.25;">${esc}</div>`;
     }
 
+    function stripEmptyChildren(rows){
+      if (!Array.isArray(rows)) return rows;
+
+      return rows.map(r => {
+        const row = {...r};
+
+        if (Array.isArray(row._children)) {
+          row._children = stripEmptyChildren(row._children);
+          if (row._children.length === 0) {
+            delete row._children;
+          }
+        } else if (row._children == null) {
+          delete row._children;
+        }
+
+        return row;
+      });
+    }
+
     async function init() {
+      const articleNum = getArticleNumberFromUrl();
+
+      if (articleNum === null) {
+        document.title = "Article – Guiding Questions";
+        document.getElementById("articleTitle").textContent = "Article (missing parameter)";
+        document.getElementById("requirement").textContent =
+          "ERROR: Missing article number in URL.\n\nUse: article.html?a=9 (or ?a=10, etc.)";
+        return;
+      }
+
+      // Update page title/heading like your dedicated files
+      document.title = `Article ${articleNum} – Guiding Questions`;
+      document.getElementById("articleTitle").textContent = `Article ${articleNum}`;
+
+      // EXACT naming convention you requested:
+      const jsonUrl = `../data/art${articleNum}.json`;
+
       // Load the JSON (contains requirement + rows)
       const resp = await fetch(jsonUrl);
       if (!resp.ok) {
@@ -70,15 +123,18 @@
           `ERROR: Cannot load ${jsonUrl} (HTTP ${resp.status})`;
         return;
       }
+
       const payload = await resp.json();
 
       // Requirement block (top, like Excel merged cell / header area)
       document.getElementById("requirement").textContent =
         payload.requirement || "(No requirement text found in JSON)";
 
+      const cleanRows = stripEmptyChildren(payload.rows || []);
+
       // Build table
       const table = new Tabulator("#table", {
-        data: payload.rows || [],
+        data: cleanRows,
         layout: "fitColumns",
         responsiveLayout: "collapse",
         pagination: false,
@@ -86,10 +142,16 @@
         clipboard: true,
         placeholder: "No rows to display",
 
-        // Excel-like nesting: checklist item (parent) -> guiding questions (children)
         dataTree: true,
         dataTreeChildField: "_children",
         dataTreeStartExpanded: false,
+
+        // Keep your tree icon, but leaf rows won't have _children anymore (stripEmptyChildren)
+        dataTreeElement: function(row, level){
+          const data = row.getData();
+          if (!Array.isArray(data?._children) || data._children.length === 0) return "";
+          return "<span style='display:inline-block; width:12px;'>▸</span>";
+        },
 
         columns: [
           {
@@ -127,13 +189,11 @@
         }
 
         table.setFilter((rowData) => {
-          // check parent row fields
           const parentHit = Object.values(rowData).some(v =>
             String(v ?? "").toLowerCase().includes(q)
           );
           if (parentHit) return true;
 
-          // check children too
           const kids = rowData._children || [];
           return kids.some(k =>
             Object.values(k).some(v =>
