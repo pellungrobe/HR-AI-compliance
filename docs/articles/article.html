@@ -168,8 +168,9 @@ a {
 
       const cleanRows = stripEmptyChildren(payload.rows || []);
 
-        const table = new Tabulator("#table", {
-        data: cleanRows,
+      // Build table
+      const table = new Tabulator("#table", {
+          data: cleanRows,
         layout: "fitDataStretch",
         responsiveLayout: false,
         pagination: false,
@@ -181,8 +182,16 @@ a {
         dataTreeChildField: "_children",
         dataTreeStartExpanded: false,
 
+        // Keep your tree icon, but leaf rows won't have _children anymore (stripEmptyChildren)
+        dataTreeElement: function(row, level){
+          const data = row.getData();
+          if (!Array.isArray(data?._children) || data._children.length === 0) return "";
+          return "<span style='display:inline-block; width:14px; font-weight:600; color:#003399;'>▸</span>";
+
+        },
+
         columns: [
-            {
+          {
             title: "Compliance checklist",
             field: "Compliance checklist",
             formatter: wrapFormatter,
@@ -191,16 +200,16 @@ a {
             frozen: true,
             variableHeight: true
             },
-            {
+          {
             title: "Guiding Questions",
             field: "Guiding Questions",
             formatter: wrapFormatter,
             widthGrow: 3,
             headerSort: false,
             variableHeight: true
-            }
+          }
         ]
-        });
+      });
 
       // Global search across ALL visible text fields (parents + children)
       const search = document.getElementById("search");
