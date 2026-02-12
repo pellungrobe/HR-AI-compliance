@@ -9,99 +9,99 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.1     Which system events are captured automatically (i.e., API calls, model inferences, error conditions)?",
+          "Guiding Questions": "12.1.1     Which system events are captured automatically (i.e., API calls, model inferences, error conditions)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     Are there any system events that are not captured automatically? If so, why?",
+          "Guiding Questions": "○     Are there any system events that are not captured automatically? If so, why?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.2     What is the level of granularity decided for the system logging? (i.e., metadata only or full payload)?",
+          "Guiding Questions": "12.1.2     What is the level of granularity decided for the system logging? (i.e., metadata only or full payload)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.3     Has a logging standardized format been defined to ensure consistency?",
+          "Guiding Questions": "12.1.3     Has a logging standardized format been defined to ensure consistency?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.4     Is the logging of contextual metadata (timestamps, model version, pipeline stage) enough to allow for a full reconstruction of each event and possible chain of events as required by Art.20?",
+          "Guiding Questions": "12.1.4     Is the logging of contextual metadata (timestamps, model version, pipeline stage) enough to allow for a full reconstruction of each event and possible chain of events as required by Art.20?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.5     How will the logs be stored (e.g. on-premise, cloud storage)?",
+          "Guiding Questions": "12.1.5     How will the logs be stored (e.g. on-premise, cloud storage)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.6     Is there a detection system to prevent unauthorized modification or deletion of log entries according to the storage environment? Describe it and justify its efficacy.",
+          "Guiding Questions": "12.1.6     Is there a detection system to prevent unauthorized modification or deletion of log entries according to the storage environment? Describe it and justify its efficacy."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.7     Is there a detection system to alert on any attempt to tamper with the logging system?",
+          "Guiding Questions": "12.1.7     Is there a detection system to alert on any attempt to tamper with the logging system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     Did you define log patterns or anomalies that should trigger automated alerts?",
+          "Guiding Questions": "○     Did you define log patterns or anomalies that should trigger automated alerts?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     How will alert notifications be routed (i.e., to on-call engineers, compliance officers) and tracked to resolution?",
+          "Guiding Questions": "○     How will alert notifications be routed (i.e., to on-call engineers, compliance officers) and tracked to resolution?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.8     How are durability and scalability of the logging storage faced through the design phase and management in time?",
+          "Guiding Questions": "12.1.8     How are durability and scalability of the logging storage faced through the design phase and management in time?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.9     Are access rights and roles defined to specify who (users and/or systems) can read, query, or export logs?",
+          "Guiding Questions": "12.1.9     Are access rights and roles defined to specify who (users and/or systems) can read, query, or export logs?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.10     Is there an expected performance impact of logging?",
+          "Guiding Questions": "12.1.10     Is there an expected performance impact of logging?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     If yes, which strategies will you employ to minimize overhead without losing critical system events?",
+          "Guiding Questions": "○     If yes, which strategies will you employ to minimize overhead without losing critical system events?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.11     Are the logs indexed in order to allow for search in case of incident investigation, audit or debugging?",
+          "Guiding Questions": "12.1.11     Are the logs indexed in order to allow for search in case of incident investigation, audit or debugging?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.12     Do you integrate any real-time monitoring system for the event logs?",
+          "Guiding Questions": "12.1.12     Do you integrate any real-time monitoring system for the event logs?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     If yes, does it consider meta-data or the log content itself? Justify your choice ensuring there is no significant loss of information taht could impact the efficacy of the monitoring.",
+          "Guiding Questions": "○     If yes, does it consider meta-data or the log content itself? Justify your choice ensuring there is no significant loss of information taht could impact the efficacy of the monitoring."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.13     Do you integrate tools or dashboards to analyze historical data of the system logs?",
+          "Guiding Questions": "12.1.13     Do you integrate tools or dashboards to analyze historical data of the system logs?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     If yes, does it consider meta-data or the log content itself? Justify your choice ensuring there is no significant loss of information taht could impact the efficacy of the monitoring.",
+          "Guiding Questions": "○     If yes, does it consider meta-data or the log content itself? Justify your choice ensuring there is no significant loss of information taht could impact the efficacy of the monitoring."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.14 Have you established an internal or third-party audit process for the logging system to verify completeness and compliance?",
+          "Guiding Questions": "12.1.14 Have you established an internal or third-party audit process for the logging system to verify completeness and compliance?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○          If yes, have you also defined the time frequency of such audits?",
+          "Guiding Questions": "○          If yes, have you also defined the time frequency of such audits?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.15     Do you generate reports to demonstrate to regulators that logs are collected and stored correctly (e.g. protected in terms of cybersecurity, compliant with GDPR)? If yes, how are such reports generated?",
+          "Guiding Questions": "12.1.15     Do you generate reports to demonstrate to regulators that logs are collected and stored correctly (e.g. protected in terms of cybersecurity, compliant with GDPR)? If yes, how are such reports generated?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.1.16     Have you defined a process that governs over possible updates of the log schema as new features (or regulations) emerge?",
+          "Guiding Questions": "12.1.16     Have you defined a process that governs over possible updates of the log schema as new features (or regulations) emerge?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     If yes, how do you ensure backward compatibility so that past logs remain consistent with the new schema?",
+          "Guiding Questions": "○     If yes, how do you ensure backward compatibility so that past logs remain consistent with the new schema?"
         }
       ]
     },
@@ -111,143 +111,143 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "Art.79(1) —",
+          "Guiding Questions": "Art.79(1) —"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.1     What types of system outputs or patterns do you treat as indicators that the system might be presenting a risk (e.g., unusually high false-negative rates in candidate screening, repeated demographic bias flags, error rates above a predefined threshold, or significant deviations from expected values)?",
+          "Guiding Questions": "12.2.a.1     What types of system outputs or patterns do you treat as indicators that the system might be presenting a risk (e.g., unusually high false-negative rates in candidate screening, repeated demographic bias flags, error rates above a predefined threshold, or significant deviations from expected values)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     [The above question presumes that each point of the example list is defined and/or can be measured and/or can be tracked in a meaningful way; examples are the following subquestions:]",
+          "Guiding Questions": "○     [The above question presumes that each point of the example list is defined and/or can be measured and/or can be tracked in a meaningful way; examples are the following subquestions:]"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     What are the numerical thresholds for a “risk-presenting” event triggering a log entry? (i.e., confidence-score < x, false-positive rate > y)",
+          "Guiding Questions": "○     What are the numerical thresholds for a “risk-presenting” event triggering a log entry? (i.e., confidence-score < x, false-positive rate > y)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○    Do you log every instance of a borderline decision, and if so, which specific cases are included (e.g., a candidate ranked just below a cutoff)? Or do you instead log only aggregate anomaly spikes over time (e.g., recurring spikes in error rates)?",
+          "Guiding Questions": "○    Do you log every instance of a borderline decision, and if so, which specific cases are included (e.g., a candidate ranked just below a cutoff)? Or do you instead log only aggregate anomaly spikes over time (e.g., recurring spikes in error rates)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.2     When defining logging triggers, how do you capture the distinction between the system’s intended purpose (Art. 3(12)) and reasonably foreseeable misuse (Art. 3(13))? For example, if a recruitment AI system is applied outside its validated demographic scope, is this treated and logged as a misuse event?",
+          "Guiding Questions": "12.2.a.2     When defining logging triggers, how do you capture the distinction between the system’s intended purpose (Art. 3(12)) and reasonably foreseeable misuse (Art. 3(13))? For example, if a recruitment AI system is applied outside its validated demographic scope, is this treated and logged as a misuse event?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     Which specific misuse scenarios have you identified for your system, and how are these scenarios monitored and logged?",
+          "Guiding Questions": "○     Which specific misuse scenarios have you identified for your system, and how are these scenarios monitored and logged?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.3     Is the granularity of logs defined in such a way that it is possible to reconstruct whether a given decision was within the system’s intended use? (i.e., logging that the candidate’s origin was outside the originally approved demographic).",
+          "Guiding Questions": "12.2.a.3     Is the granularity of logs defined in such a way that it is possible to reconstruct whether a given decision was within the system’s intended use? (i.e., logging that the candidate’s origin was outside the originally approved demographic)."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.4     For each flagged risk event, which contextual attributes do you record to allow a retrospective “root-cause” analysis? (i.e., input snapshot, model version, pipeline steps, timestamp, user or service ID that invoked the decision, GPT in-context learned snapshot up to the risk event)",
+          "Guiding Questions": "12.2.a.4     For each flagged risk event, which contextual attributes do you record to allow a retrospective “root-cause” analysis? (i.e., input snapshot, model version, pipeline steps, timestamp, user or service ID that invoked the decision, GPT in-context learned snapshot up to the risk event)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.5     How do you log instances where the system is used in ways that deviate from its normal or expected use? (For example, if a recruitment AI system designed for screening engineer-level candidates is applied to executive-level profiles.)",
+          "Guiding Questions": "12.2.a.5     How do you log instances where the system is used in ways that deviate from its normal or expected use? (For example, if a recruitment AI system designed for screening engineer-level candidates is applied to executive-level profiles.)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.6     Once a risk-presenting event is logged, who must be notified?",
+          "Guiding Questions": "12.2.a.6     Once a risk-presenting event is logged, who must be notified?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.7     Did you define a priority hierarchy among the notified persons (e.g. first the provider then the recruiters)?",
+          "Guiding Questions": "12.2.a.7     Did you define a priority hierarchy among the notified persons (e.g. first the provider then the recruiters)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.8     Which criteria trigger an immediate real-time alert versus a periodic report?",
+          "Guiding Questions": "12.2.a.8     Which criteria trigger an immediate real-time alert versus a periodic report?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.9     How should alerts be routed (i.e., email, ticketing, SMS to on-call engineer)?",
+          "Guiding Questions": "12.2.a.9     How should alerts be routed (i.e., email, ticketing, SMS to on-call engineer)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.10     What downstream workflows must be invoked once a risk log is created? (i.e. automatic freeze of new decisions pending human review)",
+          "Guiding Questions": "12.2.a.10     What downstream workflows must be invoked once a risk log is created? (i.e. automatic freeze of new decisions pending human review)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "Art.3(23) —",
+          "Guiding Questions": "Art.3(23) —"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.11     Which system changes do you classify as non-substantial modifications, meaning they do not alter the intended purpose or affect compliance with Chapter III Section 2 requirements? (i.e., accuracy and fairness assessment metrics remain within the bounds approved during initial conformity assessment)",
+          "Guiding Questions": "12.2.a.11     Which system changes do you classify as non-substantial modifications, meaning they do not alter the intended purpose or affect compliance with Chapter III Section 2 requirements? (i.e., accuracy and fairness assessment metrics remain within the bounds approved during initial conformity assessment)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.12     Which system modifications would you classify as falling outside the scope of pre-approved behaviours, and therefore potentially count as substantial modifications (e.g., replacing the underlying GPT model architecture with a new version)?",
+          "Guiding Questions": "12.2.a.12     Which system modifications would you classify as falling outside the scope of pre-approved behaviours, and therefore potentially count as substantial modifications (e.g., replacing the underlying GPT model architecture with a new version)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.13     How do you distinguish “configuration modifications” (i.e., hyperparameter tuning with pre-approved ranges) from “substantial modifications\"? What metadata do you record to prove that a modification was within allowable bounds?",
+          "Guiding Questions": "12.2.a.13     How do you distinguish “configuration modifications” (i.e., hyperparameter tuning with pre-approved ranges) from “substantial modifications\"? What metadata do you record to prove that a modification was within allowable bounds?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.14     Do you have rules in place to detect at run-time when updates or changes to system components (e.g., pipeline packages, libraries, or other dependencies) qualify as substantial modifications?",
+          "Guiding Questions": "12.2.a.14     Do you have rules in place to detect at run-time when updates or changes to system components (e.g., pipeline packages, libraries, or other dependencies) qualify as substantial modifications?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.15     For a given substantial modification, which information is logged to ensure traceability? A non-exhaustive list should consider including: “modification” related information (i.e., switch to new inference engine); “versioning” related information (i.e., previous model -> new model version, pipeline code commit, if applicable pipeline container images); timestamps of activation of the modification; reason and/or justification for the modification (i.e., performance drift detected, feature engineering update); operator/actor who initiated the modification; affected components of the change (pipeline components, decision logics).",
+          "Guiding Questions": "12.2.a.15     For a given substantial modification, which information is logged to ensure traceability? A non-exhaustive list should consider including: “modification” related information (i.e., switch to new inference engine); “versioning” related information (i.e., previous model -> new model version, pipeline code commit, if applicable pipeline container images); timestamps of activation of the modification; reason and/or justification for the modification (i.e., performance drift detected, feature engineering update); operator/actor who initiated the modification; affected components of the change (pipeline components, decision logics)."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.16    After a modification, which checks or automated tests must pass to demonstrate that the system continues to meet Chapter III, Section 2 requirements? (For example, bias audits, robustness tests, or accuracy benchmarks.)",
+          "Guiding Questions": "12.2.a.16    After a modification, which checks or automated tests must pass to demonstrate that the system continues to meet Chapter III, Section 2 requirements? (For example, bias audits, robustness tests, or accuracy benchmarks.)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.17     How do logs capture the results of such checks? (i.e., pass/fail, details, test metrics)",
+          "Guiding Questions": "12.2.a.17     How do logs capture the results of such checks? (i.e., pass/fail, details, test metrics)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.18     Once a modification is logged as substantial, is there an automated process that ensures that the AI product is flagged for a new conformity assessment?",
+          "Guiding Questions": "12.2.a.18     Once a modification is logged as substantial, is there an automated process that ensures that the AI product is flagged for a new conformity assessment?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○          Is such a log entry linked to an internal/external audit ticket so that the compliance team can demonstrate traceability from the “modification event” to “audit outcome”? (i.e. AI version -> substantial change log -> new conformity assessment documents?)",
+          "Guiding Questions": "○          Is such a log entry linked to an internal/external audit ticket so that the compliance team can demonstrate traceability from the “modification event” to “audit outcome”? (i.e. AI version -> substantial change log -> new conformity assessment documents?)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.19 Once a modification event is logged, who is notified and who is authorized to see it? In case the modification is deeemed as substantial, who is notified?",
+          "Guiding Questions": "12.2.a.19 Once a modification event is logged, who is notified and who is authorized to see it? In case the modification is deeemed as substantial, who is notified?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.20     How do you ensure that logs of risk-presenting events are fed back into system development and design improvements? For instance, if a specific model version consistently triggers risk flags, how are these logged insights transferred to and acted upon by the development team?",
+          "Guiding Questions": "12.2.a.20     How do you ensure that logs of risk-presenting events are fed back into system development and design improvements? For instance, if a specific model version consistently triggers risk flags, how are these logged insights transferred to and acted upon by the development team?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○         Which governance process ensures that logged risks systematically inform future design choices?",
+          "Guiding Questions": "○         Which governance process ensures that logged risks systematically inform future design choices?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.21     If you willingly perform a substantial modification, how do you ensure that this event is logged? Which information do you log? For instance:",
+          "Guiding Questions": "12.2.a.21     If you willingly perform a substantial modification, how do you ensure that this event is logged? Which information do you log? For instance:"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     How do you record who initiated and approved the modification?",
+          "Guiding Questions": "○     How do you record who initiated and approved the modification?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     How do you capture the exact time and date of the modification?",
+          "Guiding Questions": "○     How do you capture the exact time and date of the modification?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○    How do you retain both the state of the system before the modification and the state after it?",
+          "Guiding Questions": "○    How do you retain both the state of the system before the modification and the state after it?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○    How do you document which components of the system were altered and in what way?",
+          "Guiding Questions": "○    How do you document which components of the system were altered and in what way?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○   How do you guarantee that these logs are preserved in a tamper-evident and auditable format?",
+          "Guiding Questions": "○   How do you guarantee that these logs are preserved in a tamper-evident and auditable format?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.a.22     If the substantial modifications refer to pre-allowed range of hyperparameters how can you trace those values in real-time thanks to the logs?",
+          "Guiding Questions": "12.2.a.22     If the substantial modifications refer to pre-allowed range of hyperparameters how can you trace those values in real-time thanks to the logs?"
         }
       ]
     },
@@ -257,51 +257,51 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.1     Which performance metrics (e.g., accuracy, precision, recall, demographic parity gaps) do you track to demonstrate ongoing compliance with Chapter III, Section 2?",
+          "Guiding Questions": "12.2.b.1     Which performance metrics (e.g., accuracy, precision, recall, demographic parity gaps) do you track to demonstrate ongoing compliance with Chapter III, Section 2?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.2     How do you log the indicators that are specific to each regulatory requirement (bias mitigation, robustness, transparency)?",
+          "Guiding Questions": "12.2.b.2     How do you log the indicators that are specific to each regulatory requirement (bias mitigation, robustness, transparency)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.3     Does your logging system track any documents or relevant data that deployers (i.e., HR teams) might supply to feed post-market monitoring? (e.g., candidate appeals, adverse outcomes reported)",
+          "Guiding Questions": "12.2.b.3     Does your logging system track any documents or relevant data that deployers (i.e., HR teams) might supply to feed post-market monitoring? (e.g., candidate appeals, adverse outcomes reported)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.4     Have you codified a “post-market monitoring plan” for logs that explicitly include: i) Data sources (deployer feedback, in-product metrics), ii) collection frequency (i.e., real-time vs daily batch) and iii) analysis pipeline (e.g., automated drift detection scripts)?",
+          "Guiding Questions": "12.2.b.4     Have you codified a “post-market monitoring plan” for logs that explicitly include: i) Data sources (deployer feedback, in-product metrics), ii) collection frequency (i.e., real-time vs daily batch) and iii) analysis pipeline (e.g., automated drift detection scripts)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     For each element of the post-market monitoring plan, how do you ensure that its execution is reflected in the logs? For example, if the plan includes a daily score-alignment audit, do the logs show that the audit was performed and what its results were?",
+          "Guiding Questions": "○     For each element of the post-market monitoring plan, how do you ensure that its execution is reflected in the logs? For example, if the plan includes a daily score-alignment audit, do the logs show that the audit was performed and what its results were?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.5     How do you record the eventual updates of the post-market monitoring plan?",
+          "Guiding Questions": "12.2.b.5     How do you record the eventual updates of the post-market monitoring plan?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.6    What metadata is logged to show that at any point in time, a specific version of the post-market plan was in effect?",
+          "Guiding Questions": "12.2.b.6    What metadata is logged to show that at any point in time, a specific version of the post-market plan was in effect?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.7     Who (role/title) is responsible for maintaining the post-market monitoring plan?",
+          "Guiding Questions": "12.2.b.7     Who (role/title) is responsible for maintaining the post-market monitoring plan?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.8     How is accountability divided between the provider and the deployer (HR, IT) for collecting and analysing the logs referring to the post-market monitoring?",
+          "Guiding Questions": "12.2.b.8     How is accountability divided between the provider and the deployer (HR, IT) for collecting and analysing the logs referring to the post-market monitoring?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.9     How do insights from log analyses (e.g., emerging bias patterns in specific job categories) feed back into updates of the post-market monitoring plan itself?",
+          "Guiding Questions": "12.2.b.9     How do insights from log analyses (e.g., emerging bias patterns in specific job categories) feed back into updates of the post-market monitoring plan itself?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.10    What technical measures in your logging system ensure that revisions of the post-market monitoring plan are recorded in a way that is protected from unauthorized change, so that the timing and content of each revision can be reliably verified during an audit?",
+          "Guiding Questions": "12.2.b.10    What technical measures in your logging system ensure that revisions of the post-market monitoring plan are recorded in a way that is protected from unauthorized change, so that the timing and content of each revision can be reliably verified during an audit?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.b.11     Is your post-market monitoring system integrated with existing logging frameworks, and if so, how do you ensure that the fields in your logs correspond to the required template elements of those frameworks?",
+          "Guiding Questions": "12.2.b.11     Is your post-market monitoring system integrated with existing logging frameworks, and if so, how do you ensure that the fields in your logs correspond to the required template elements of those frameworks?"
         }
       ]
     },
@@ -311,55 +311,55 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.1     How do you verify that each operation of the system (e.g., candidate screening run, hyperparameter change) is executed according to the published Instructions for Use required by Art.13?",
+          "Guiding Questions": "12.2.c.1     How do you verify that each operation of the system (e.g., candidate screening run, hyperparameter change) is executed according to the published Instructions for Use required by Art.13?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.2     How is a deployer’s decision to suspend the AI system logged?",
+          "Guiding Questions": "12.2.c.2     How is a deployer’s decision to suspend the AI system logged?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.3     What minimum information must be recorded to show that “without undue delay” use was suspended once a risk was identified? (i.e., time elapsed between first risk-flag log and suspension log)",
+          "Guiding Questions": "12.2.c.3     What minimum information must be recorded to show that “without undue delay” use was suspended once a risk was identified? (i.e., time elapsed between first risk-flag log and suspension log)"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.4     Which confirmation or acknowledgment is associated with suspension, and how is that captured?",
+          "Guiding Questions": "12.2.c.4     Which confirmation or acknowledgment is associated with suspension, and how is that captured?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.5     What log entries record the act of “informing the provider or distributor and the relevant market surveillance authority without undue delay”?",
+          "Guiding Questions": "12.2.c.5     What log entries record the act of “informing the provider or distributor and the relevant market surveillance authority without undue delay”?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.6     What constitutes a “serious incident” in your specific recruitment application context? Do they have a specific logging template and alert system?",
+          "Guiding Questions": "12.2.c.6     What constitutes a “serious incident” in your specific recruitment application context? Do they have a specific logging template and alert system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.7     When you notify the provider and the market surveillance authority about a suspension or a serious incident, how do you log that the notification was successfully delivered and acknowledged, and how do you record any follow-up actions if the first attempt at contact fails?",
+          "Guiding Questions": "12.2.c.7     When you notify the provider and the market surveillance authority about a suspension or a serious incident, how do you log that the notification was successfully delivered and acknowledged, and how do you record any follow-up actions if the first attempt at contact fails?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.8     When the criteria for a serious incident are met, what additional fields do you log (for example, incident ID, affected job category, number of impacted candidates, severity rating) to demonstrate compliance with Article 73 timelines?",
+          "Guiding Questions": "12.2.c.8     When the criteria for a serious incident are met, what additional fields do you log (for example, incident ID, affected job category, number of impacted candidates, severity rating) to demonstrate compliance with Article 73 timelines?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.9     When a serious incident is detected, how do you log the point at which you first identified a possible causal link between the system and the incident, and how do you then log the reasoning and evidence that led to the conclusion that a causal link is established or likely?",
+          "Guiding Questions": "12.2.c.9     When a serious incident is detected, how do you log the point at which you first identified a possible causal link between the system and the incident, and how do you then log the reasoning and evidence that led to the conclusion that a causal link is established or likely?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.10     How do your logs capture the severity and nature of each incident, so that both immediate impact and systemic implications can be assessed later?",
+          "Guiding Questions": "12.2.c.10     How do your logs capture the severity and nature of each incident, so that both immediate impact and systemic implications can be assessed later?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.11     After a serious incident log is created, which events record the subsequent “investigation” steps (e.g. analysis runs, interviews, risk assessments)?",
+          "Guiding Questions": "12.2.c.11     After a serious incident log is created, which events record the subsequent “investigation” steps (e.g. analysis runs, interviews, risk assessments)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.12  During the investigation of a serious incident, how do you log that evidence (such as raw logs, datasets, or model snapshots) has been preserved without alteration before notifying authorities?",
+          "Guiding Questions": "12.2.c.12  During the investigation of a serious incident, how do you log that evidence (such as raw logs, datasets, or model snapshots) has been preserved without alteration before notifying authorities?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "12.2.c.13     When a corrective action is implemented in response to a serious incident, do you capture it in the logs so that auditing is ensured?",
+          "Guiding Questions": "12.2.c.13     When a corrective action is implemented in response to a serious incident, do you capture it in the logs so that auditing is ensured?"
         }
       ]
     },
@@ -369,11 +369,11 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////",
+          "Guiding Questions": "////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "If the AI system has been developed by integrating GPAI models, what transparency measures have been adopted, taking into account the specific characteristics of such models? What technical measures and contractual safeguards have been put in place?",
+          "Guiding Questions": "If the AI system has been developed by integrating GPAI models, what transparency measures have been adopted, taking into account the specific characteristics of such models? What technical measures and contractual safeguards have been put in place?"
         }
       ]
     }

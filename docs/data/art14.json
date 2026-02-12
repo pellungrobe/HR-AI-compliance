@@ -9,23 +9,23 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.1.1     Is the high-risk AI system designed to keep the human in control during the process of individual decision-making?",
+          "Guiding Questions": "14.1.1     Is the high-risk AI system designed to keep the human in control during the process of individual decision-making?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.1.2     Who is the human operator responsible for oversight? Is it the developer, the recruiter, or another figure?",
+          "Guiding Questions": "14.1.2     Who is the human operator responsible for oversight? Is it the developer, the recruiter, or another figure?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.1.3     In which steps of the pipeline will the human oversight take place (e.g., after each critical step, at the end of the pipeline etc.)?",
+          "Guiding Questions": "14.1.3     In which steps of the pipeline will the human oversight take place (e.g., after each critical step, at the end of the pipeline etc.)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.1.4     What kind of information will the human overseer be provided to take the final decision in each individual case?",
+          "Guiding Questions": "14.1.4     What kind of information will the human overseer be provided to take the final decision in each individual case?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.1.5     How should the interaction between the system and the human operator take place? Has an appropriate interface been designed and developed?",
+          "Guiding Questions": "14.1.5     How should the interaction between the system and the human operator take place? Has an appropriate interface been designed and developed?"
         }
       ]
     },
@@ -35,11 +35,11 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.2.1     Given the potential risks to the health, safety or fundamental rights of users or affected individuals that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse as identified according to Art. 9, which human oversight measures are in place to prevent and minimize such risks? Justify your choice mapping each identified risk (or foreseeable misure) to the appropriate human oversight measure.",
+          "Guiding Questions": "14.2.1     Given the potential risks to the health, safety or fundamental rights of users or affected individuals that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse as identified according to Art. 9, which human oversight measures are in place to prevent and minimize such risks? Justify your choice mapping each identified risk (or foreseeable misure) to the appropriate human oversight measure."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.2.2     Are human overseers trained to recognize risks and adopt the appropriate human oversight measures to prevent/minimise them?",
+          "Guiding Questions": "14.2.2     Are human overseers trained to recognize risks and adopt the appropriate human oversight measures to prevent/minimise them?"
         }
       ]
     },
@@ -49,23 +49,23 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.3.1     Before placing the high-risk AI system on the market or putting it into service, has the provider identified human oversight measures which are commensurate with the risks, level of autonomy, intended used, and context of use of the high-risk AI system?",
+          "Guiding Questions": "14.3.1     Before placing the high-risk AI system on the market or putting it into service, has the provider identified human oversight measures which are commensurate with the risks, level of autonomy, intended used, and context of use of the high-risk AI system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.3.2     Have the identified oversight measures been designed into the system (e.g., through actions requiring deployer intervention) by the provider before it is placed on the market or put into service? If yes, how? Document and justify them.",
+          "Guiding Questions": "14.3.2     Have the identified oversight measures been designed into the system (e.g., through actions requiring deployer intervention) by the provider before it is placed on the market or put into service? If yes, how? Document and justify them."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.3.3 Are the human oversight measures not implemented by the provider (if any) appropriate to be implemented by the deployer? Document and justify your methodology.",
+          "Guiding Questions": "14.3.3 Are the human oversight measures not implemented by the provider (if any) appropriate to be implemented by the deployer? Document and justify your methodology."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.3.4 Did the provider give instructions to the deployer on how to appropriately implement said human oversight measures? Specify the instructions.",
+          "Guiding Questions": "14.3.4 Did the provider give instructions to the deployer on how to appropriately implement said human oversight measures? Specify the instructions."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.3.5 Is there a continuous feedback between provider and deployer on how to appropriately implement human oversight measures as new risk emerge?",
+          "Guiding Questions": "14.3.5 Is there a continuous feedback between provider and deployer on how to appropriately implement human oversight measures as new risk emerge?"
         }
       ]
     },
@@ -80,27 +80,27 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.a.1     Have human overseers received documentation or training about how the system works and its intended purposes, in particular on how to recognize when the input data (e.g., belonging to the target population) and context can be appropriately processed by the system?",
+          "Guiding Questions": "14.4.a.1     Have human overseers received documentation or training about how the system works and its intended purposes, in particular on how to recognize when the input data (e.g., belonging to the target population) and context can be appropriately processed by the system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.a.2     What is the AI literacy necessary for human overseers to actively and knowledgeably participate in the decision-making and monitoring processes?",
+          "Guiding Questions": "14.4.a.2     What is the AI literacy necessary for human overseers to actively and knowledgeably participate in the decision-making and monitoring processes?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.a.3     What specific events of anomalies, dysfunctions and unexpected performance should be reported to the human overseer?",
+          "Guiding Questions": "14.4.a.3     What specific events of anomalies, dysfunctions and unexpected performance should be reported to the human overseer?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.a.4 How do the human overseers receive information about anomalies, dysfunctions and unexpected performance of the system?",
+          "Guiding Questions": "14.4.a.4 How do the human overseers receive information about anomalies, dysfunctions and unexpected performance of the system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.a.5     In case of failed tests (e.g. anomalies), which interventions should be put in place to properly handle the information thorugh the AI system pipeline (i.e. from data processing to CV ranking)?",
+          "Guiding Questions": "14.4.a.5     In case of failed tests (e.g. anomalies), which interventions should be put in place to properly handle the information thorugh the AI system pipeline (i.e. from data processing to CV ranking)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.a.6     Which is the frequency of the monitoring procedure and how does it lead to accurate and timely detection of anomalies, dysfunctions and unexpected performance?",
+          "Guiding Questions": "14.4.a.6     Which is the frequency of the monitoring procedure and how does it lead to accurate and timely detection of anomalies, dysfunctions and unexpected performance?"
         }
       ]
     },
@@ -110,27 +110,27 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.b.1 Which choices in the architecture of the AI system did you put in place to limit the risk of automation bias (e.g. explainable AI, learning to defer, frictional AI)?",
+          "Guiding Questions": "14.4.b.1 Which choices in the architecture of the AI system did you put in place to limit the risk of automation bias (e.g. explainable AI, learning to defer, frictional AI)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.b.2    Are human-AI interaction measures adopted to avoid over-reliance (e.g., progressive disclosure, provision of a set of alternative system outputs rather than single predictions)?",
+          "Guiding Questions": "14.4.b.2    Are human-AI interaction measures adopted to avoid over-reliance (e.g., progressive disclosure, provision of a set of alternative system outputs rather than single predictions)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.b.3    Which information will the overseer be provided to prevent automation bias (e.g. prediction, confidence of the model, explanations)?",
+          "Guiding Questions": "14.4.b.3    Which information will the overseer be provided to prevent automation bias (e.g. prediction, confidence of the model, explanations)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.b.4 Is the user interface designed and implemented to ensure effective oversight and limit the risk of automation bias?",
+          "Guiding Questions": "14.4.b.4 Is the user interface designed and implemented to ensure effective oversight and limit the risk of automation bias?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.b.5    Is human oversight on each case performed by multiple individuals? If so, how do you handle contrastive evaluations?",
+          "Guiding Questions": "14.4.b.5    Is human oversight on each case performed by multiple individuals? If so, how do you handle contrastive evaluations?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.b.6    Are the human overseer aware of the possible risks for affected individuals that may derive from automation bias, such as interviewing candidates based on synthetically generated scores without verifying the assessment metrics, including those related to predictive robustness, illegal discrimination and consistency of explanations?",
+          "Guiding Questions": "14.4.b.6    Are the human overseer aware of the possible risks for affected individuals that may derive from automation bias, such as interviewing candidates based on synthetically generated scores without verifying the assessment metrics, including those related to predictive robustness, illegal discrimination and consistency of explanations?"
         }
       ]
     },
@@ -140,23 +140,23 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.c.1    What information should be provided to the human overseers to enable them to properly interpret the output of the AI system? Does it include any interpretation tools (e.g., feature importance, counterfactuals, examples and counterexamples…)?",
+          "Guiding Questions": "14.4.c.1    What information should be provided to the human overseers to enable them to properly interpret the output of the AI system? Does it include any interpretation tools (e.g., feature importance, counterfactuals, examples and counterexamples…)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.c.2    How are human overseers trained to achieve an appropriate level of AI literacy to correctly interpret the system's output, including the explanations given by the interpretability tools?",
+          "Guiding Questions": "14.4.c.2    How are human overseers trained to achieve an appropriate level of AI literacy to correctly interpret the system's output, including the explanations given by the interpretability tools?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.c.3 Were the explanations generated using generative AI?",
+          "Guiding Questions": "14.4.c.3 Were the explanations generated using generative AI?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○    If so, have you considered that, as potentially unreliable outputs, they may constitute a source of systemic risk (3rd draft of the Code of Practice, Safety and Security, Appendix 1.4)? How do you minimise this risk? Document and justify.",
+          "Guiding Questions": "○    If so, have you considered that, as potentially unreliable outputs, they may constitute a source of systemic risk (3rd draft of the Code of Practice, Safety and Security, Appendix 1.4)? How do you minimise this risk? Document and justify."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.c.4    What explainability (XAI) alternatives can be adopted?",
+          "Guiding Questions": "14.4.c.4    What explainability (XAI) alternatives can be adopted?"
         }
       ]
     },
@@ -166,39 +166,39 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.d.1 In which particular situations do you expect the high-risk AI system to be reasonably not used?",
+          "Guiding Questions": "14.4.d.1 In which particular situations do you expect the high-risk AI system to be reasonably not used?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.d.2  Is the AI system embedded with algorithmic mechanisms (e.g., learning to defer) that enable it to automatically recognise, interrupt its execution and defer the decision-making task to humans (for instance, when the confidence score is low, the input data is not consistent with the target population, etc.)?",
+          "Guiding Questions": "14.4.d.2  Is the AI system embedded with algorithmic mechanisms (e.g., learning to defer) that enable it to automatically recognise, interrupt its execution and defer the decision-making task to humans (for instance, when the confidence score is low, the input data is not consistent with the target population, etc.)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.d.3 In which particular situations do you expect the output of the high-risk AI system to be reasonably disregarded, overridden or reversed?",
+          "Guiding Questions": "14.4.d.3 In which particular situations do you expect the output of the high-risk AI system to be reasonably disregarded, overridden or reversed?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.d.4 In said particular situations, how will the human overseer be alerted?",
+          "Guiding Questions": "14.4.d.4 In said particular situations, how will the human overseer be alerted?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.d.5 How do you design the system in a way that disregarding, overriding and reversing the output can happen in a timely fashion after receiving the alerts?",
+          "Guiding Questions": "14.4.d.5 How do you design the system in a way that disregarding, overriding and reversing the output can happen in a timely fashion after receiving the alerts?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.d.6 Can human overseers disregard, override and reverse the output of the high-risk AI system, also beyond predefined exceptional cases (e.g., by manually correcting parsing results or adjusting the ranking of shortlisted candidates)?",
+          "Guiding Questions": "14.4.d.6 Can human overseers disregard, override and reverse the output of the high-risk AI system, also beyond predefined exceptional cases (e.g., by manually correcting parsing results or adjusting the ranking of shortlisted candidates)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.d.7 How are events of disregarding, overriding and reversing of the output of the high-risk AI system traced?",
+          "Guiding Questions": "14.4.d.7 How are events of disregarding, overriding and reversing of the output of the high-risk AI system traced?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.d.8 Is there a feedback mechanism to integrate in the AI system the evaluation of the human overseer in case it differs from the machine prediction?",
+          "Guiding Questions": "14.4.d.8 Is there a feedback mechanism to integrate in the AI system the evaluation of the human overseer in case it differs from the machine prediction?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.d.9  Is the AI system embedded with algorithmic interventions that enable it to automatically recognise and stop its execution when its level of uncertainty or risk is too high to provide a prediction on critical cases?",
+          "Guiding Questions": "14.4.d.9  Is the AI system embedded with algorithmic interventions that enable it to automatically recognise and stop its execution when its level of uncertainty or risk is too high to provide a prediction on critical cases?"
         }
       ]
     },
@@ -208,27 +208,27 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.e.1   How do you design the procedure to interrupt the AI system (i.e. \"stop button\")? Describe the procedure.",
+          "Guiding Questions": "14.4.e.1   How do you design the procedure to interrupt the AI system (i.e. \"stop button\")? Describe the procedure."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.e.2    Whenever you recognise the need to stop the AI system operations, how do you handle previous instances processed through the malfunctioning system?",
+          "Guiding Questions": "14.4.e.2    Whenever you recognise the need to stop the AI system operations, how do you handle previous instances processed through the malfunctioning system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "14.4.e.3    Are monitoring strategies put in place by human overseers to keep them aware of possible malfunctions and enable them to manually stop the execution?",
+          "Guiding Questions": "14.4.e.3    Are monitoring strategies put in place by human overseers to keep them aware of possible malfunctions and enable them to manually stop the execution?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○        If yes, which information is given to the human overseer to allow for stopping correctly the system?",
+          "Guiding Questions": "○        If yes, which information is given to the human overseer to allow for stopping correctly the system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○        If yes, how are strategies adopted by the human overseer to address the system alerts traced?",
+          "Guiding Questions": "○        If yes, how are strategies adopted by the human overseer to address the system alerts traced?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "If the AI system has been developed by integrating GPAI models, what transparency measures have been adopted, taking into account the specific characteristics of such models? What technical measures and contractual safeguards have been put in place?",
+          "Guiding Questions": "If the AI system has been developed by integrating GPAI models, what transparency measures have been adopted, taking into account the specific characteristics of such models? What technical measures and contractual safeguards have been put in place?"
         }
       ]
     }

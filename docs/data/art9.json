@@ -9,15 +9,15 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.1.1     Is it a RMS established?",
+          "Guiding Questions": "9.1.1     Is it a RMS established?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.1.2   How is the RMS implemented?",
+          "Guiding Questions": "9.1.2   How is the RMS implemented?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.1.3  How is the RMS documented and maintained?",
+          "Guiding Questions": "9.1.3  How is the RMS documented and maintained?"
         }
       ]
     },
@@ -27,27 +27,27 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.1 What is the definition of a continuous iterative process in your context?",
+          "Guiding Questions": "9.2.1 What is the definition of a continuous iterative process in your context?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.2 Which are the rules or conditions for initiating an RMS iteration?",
+          "Guiding Questions": "9.2.2 Which are the rules or conditions for initiating an RMS iteration?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.4 For each RMS iteration, what is the cadence and how do you justify that cadence as effective at reducing the identified risk?",
+          "Guiding Questions": "9.2.4 For each RMS iteration, what is the cadence and how do you justify that cadence as effective at reducing the identified risk?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.5  Is the RMS applied across the entire AI system lifecycle? How does the RMS differ at each lifecycle phase?",
+          "Guiding Questions": "9.2.5  Is the RMS applied across the entire AI system lifecycle? How does the RMS differ at each lifecycle phase?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.6 How is the systematic review of the RMS defined?",
+          "Guiding Questions": "9.2.6 How is the systematic review of the RMS defined?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.7  How is the updating process of the RMS defined?",
+          "Guiding Questions": "9.2.7  How is the updating process of the RMS defined?"
         }
       ]
     },
@@ -57,19 +57,19 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.a.1 Which known risks can the AI system pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose?",
+          "Guiding Questions": "9.2.a.1 Which known risks can the AI system pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.a.2  Which reasonably foreseeable risks can the AI system pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose?",
+          "Guiding Questions": "9.2.a.2  Which reasonably foreseeable risks can the AI system pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.a.3   Which rights are most likely to be impacted by your AI system? How will your Fundamental Rights Assessment (Art. 27) identify, measure, and mitigate those impacts?",
+          "Guiding Questions": "9.2.a.3   Which rights are most likely to be impacted by your AI system? How will your Fundamental Rights Assessment (Art. 27) identify, measure, and mitigate those impacts?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.a.4 Which methods and evidence do you use to analyse known and reasonably foreseeable risks? For each risk, consider providing metrics, thresholds, documented findings, and the mitigation/acceptance decision.",
+          "Guiding Questions": "9.2.a.4 Which methods and evidence do you use to analyse known and reasonably foreseeable risks? For each risk, consider providing metrics, thresholds, documented findings, and the mitigation/acceptance decision."
         }
       ]
     },
@@ -79,19 +79,19 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.b.1 Which methods and/or tools does the RMS use to estimate and evaluate risks? For each consider providing details and sample evidence.",
+          "Guiding Questions": "9.2.b.1 Which methods and/or tools does the RMS use to estimate and evaluate risks? For each consider providing details and sample evidence."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.b.2 How do you validate the robustness of risk estimates and evaluations? Consider describing the validation methods used.",
+          "Guiding Questions": "9.2.b.2 How do you validate the robustness of risk estimates and evaluations? Consider describing the validation methods used."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.b.3  List the reasonable and foreseeable misuse scenario you identified for this system. For each identified misuse scenario, show the likelihood, potential harms and where and how it is addressed in the pipeline.",
+          "Guiding Questions": "9.2.b.3  List the reasonable and foreseeable misuse scenario you identified for this system. For each identified misuse scenario, show the likelihood, potential harms and where and how it is addressed in the pipeline."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.b.5 Why are the chosen risk estimation and evaluation approaches appropriate for the system's intended purpose?",
+          "Guiding Questions": "9.2.b.5 Why are the chosen risk estimation and evaluation approaches appropriate for the system's intended purpose?"
         }
       ]
     },
@@ -101,23 +101,23 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.c.1  How does post-market monitoring data feed into the RMS?",
+          "Guiding Questions": "9.2.c.1  How does post-market monitoring data feed into the RMS?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.c.2 Is a documented integration pipeline implemented between the post market monitoring and RMS? If yes, please provide the pipeline specification.",
+          "Guiding Questions": "9.2.c.2 Is a documented integration pipeline implemented between the post market monitoring and RMS? If yes, please provide the pipeline specification."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.c.3 Which analysis methods and criteria do you apply to post market monitoring data to detect whether unforeseen risks emerged?",
+          "Guiding Questions": "9.2.c.3 Which analysis methods and criteria do you apply to post market monitoring data to detect whether unforeseen risks emerged?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.c.4  Is there a correction pipeline planned and described for each new identified risk detected via post market monitoring data analysis?",
+          "Guiding Questions": "9.2.c.4  Is there a correction pipeline planned and described for each new identified risk detected via post market monitoring data analysis?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.c.5 If you plan to update the pipeline, how will those updates be implemented?",
+          "Guiding Questions": "9.2.c.5 If you plan to update the pipeline, how will those updates be implemented?"
         }
       ]
     },
@@ -127,7 +127,7 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.2.d.1 Which measures did you adopt to implement an appropriate and targeted assessment of risks regarding health, safety and fundamental rights?",
+          "Guiding Questions": "9.2.d.1 Which measures did you adopt to implement an appropriate and targeted assessment of risks regarding health, safety and fundamental rights?"
         }
       ]
     },
@@ -137,11 +137,11 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.3.1 Have you identified the risks that can be reasonably mitigated or eliminated? Provide a list of such risks and describe the methods and criteria used to decide that a given risk is reasonably mitigable.",
+          "Guiding Questions": "9.3.1 Have you identified the risks that can be reasonably mitigated or eliminated? Provide a list of such risks and describe the methods and criteria used to decide that a given risk is reasonably mitigable."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.3.3  Are there foreseeable risks to health, safety, or fundamental rights that cannot reasonably be mitigated or eliminated? Why are those risks not reasonably mitigable, and how did you determine that?",
+          "Guiding Questions": "9.3.3  Are there foreseeable risks to health, safety, or fundamental rights that cannot reasonably be mitigated or eliminated? Why are those risks not reasonably mitigable, and how did you determine that?"
         }
       ]
     },
@@ -151,23 +151,23 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.4.1  Do you identify interactions between the RMS and the other requirements of Section 2?",
+          "Guiding Questions": "9.4.1  Do you identify interactions between the RMS and the other requirements of Section 2?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.4.2 How is the RMS designed to enable compliance with all Section 2 requirements, inlcuding when these are affected by system modifications?",
+          "Guiding Questions": "9.4.2 How is the RMS designed to enable compliance with all Section 2 requirements, inlcuding when these are affected by system modifications?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.4.4 How do you balance RMS implementation with other Section 2 requirements?",
+          "Guiding Questions": "9.4.4 How do you balance RMS implementation with other Section 2 requirements?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.4.5 How do you justify the trade-off between RMS implementation and that of other requirements in Section 2?",
+          "Guiding Questions": "9.4.5 How do you justify the trade-off between RMS implementation and that of other requirements in Section 2?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.4.6 What inherent and foreseeable risks arise from your chosen trade-off strategy?",
+          "Guiding Questions": "9.4.6 What inherent and foreseeable risks arise from your chosen trade-off strategy?"
         }
       ]
     },
@@ -177,19 +177,19 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.1  Which hazards are present in your specific application?",
+          "Guiding Questions": "9.5.1  Which hazards are present in your specific application?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.2 How do you define “acceptable residual risk” and how is it measured?",
+          "Guiding Questions": "9.5.2 How do you define “acceptable residual risk” and how is it measured?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.3 What are the residual risks for each hazard, and why are they judged acceptable?",
+          "Guiding Questions": "9.5.3 What are the residual risks for each hazard, and why are they judged acceptable?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.4 What is the overall residual risk of the AI system, and why is it judged acceptable?",
+          "Guiding Questions": "9.5.4 What is the overall residual risk of the AI system, and why is it judged acceptable?"
         }
       ]
     },
@@ -204,15 +204,15 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.a.1 What technical strategies in design and development have you implemented to eliminate or reduce the risks identified under Article 9.2?",
+          "Guiding Questions": "9.5.a.1 What technical strategies in design and development have you implemented to eliminate or reduce the risks identified under Article 9.2?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.a.2  How do your chosen solutions eliminate or reduce these risks? Which alternatives did you consider, and why was your chosen approach preferred?",
+          "Guiding Questions": "9.5.a.2  How do your chosen solutions eliminate or reduce these risks? Which alternatives did you consider, and why was your chosen approach preferred?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.a.3   Are there any technical limitations of your solution?",
+          "Guiding Questions": "9.5.a.3   Are there any technical limitations of your solution?"
         }
       ]
     },
@@ -222,11 +222,11 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.b.1 Why can certain risks not be eliminated? For each risk you considered non-eliminable, provide the infeasibility analysis showing why elimination is not reasonable.",
+          "Guiding Questions": "9.5.b.1 Why can certain risks not be eliminated? For each risk you considered non-eliminable, provide the infeasibility analysis showing why elimination is not reasonable."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.b.2 What mitigation and control measures have you implemented for risks that cannot be eliminated, and why were these measures chosen?",
+          "Guiding Questions": "9.5.b.2 What mitigation and control measures have you implemented for risks that cannot be eliminated, and why were these measures chosen?"
         }
       ]
     },
@@ -236,23 +236,23 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.c.1 Which information required by Article 13 is provided to deployers to eliminate or reduce risks?",
+          "Guiding Questions": "9.5.c.1 Which information required by Article 13 is provided to deployers to eliminate or reduce risks?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.c.2  What AI literacy according to Art.4 (i.e., technical knowledge, experience, education, training) do you require from deployers so they can reduce or eliminate risks?",
+          "Guiding Questions": "9.5.c.2  What AI literacy according to Art.4 (i.e., technical knowledge, experience, education, training) do you require from deployers so they can reduce or eliminate risks?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.c.3 How does the AI literacy account for the specific context of use, in particular with respect to the persons or groups of persons on whom the AI system is to be used?",
+          "Guiding Questions": "9.5.c.3 How does the AI literacy account for the specific context of use, in particular with respect to the persons or groups of persons on whom the AI system is to be used?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.c.4  Is application-specific training appropriate for deployers of this system? Why or why not?",
+          "Guiding Questions": "9.5.c.4  Is application-specific training appropriate for deployers of this system? Why or why not?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.5.c.5  What level of AI literacy do you expect your deployers to have?",
+          "Guiding Questions": "9.5.c.5  What level of AI literacy do you expect your deployers to have?"
         }
       ]
     },
@@ -262,15 +262,15 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.6.1 Do you verify that testing of the AI system is performed under conditions that are representative of the production environment and performs consistently for its intended purpose?",
+          "Guiding Questions": "9.6.1 Do you verify that testing of the AI system is performed under conditions that are representative of the production environment and performs consistently for its intended purpose?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.6.2 If not, what is the risk that the chosen risk management measures will fail to protect health, safety or fundamental rights?",
+          "Guiding Questions": "9.6.2 If not, what is the risk that the chosen risk management measures will fail to protect health, safety or fundamental rights?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.6.3 How do you select the most appropriate and targeted risk management measures? Which alternatives were considered and why was the chosen option selected?",
+          "Guiding Questions": "9.6.3 How do you select the most appropriate and targeted risk management measures? Which alternatives were considered and why was the chosen option selected?"
         }
       ]
     },
@@ -280,15 +280,15 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.7.1 Did you perform testing in real-world conditions outside an AI regulatory sandbox? If yes, did you comply with the Article 60 requirements?",
+          "Guiding Questions": "9.7.1 Did you perform testing in real-world conditions outside an AI regulatory sandbox? If yes, did you comply with the Article 60 requirements?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.7.2 If no, why did you not test in real-world conditions, and what alternative steps did you take to validate system safety?",
+          "Guiding Questions": "9.7.2 If no, why did you not test in real-world conditions, and what alternative steps did you take to validate system safety?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "[The Commission shall, by means of implementing acts, specify the detailed elements of the real-world testing plan.]",
+          "Guiding Questions": "[The Commission shall, by means of implementing acts, specify the detailed elements of the real-world testing plan.]"
         }
       ]
     },
@@ -298,31 +298,31 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.8.1 Which metrics and probabilistic thresholds have you defined for the system’s intended purpose, and why are they appropriate?",
+          "Guiding Questions": "9.8.1 Which metrics and probabilistic thresholds have you defined for the system’s intended purpose, and why are they appropriate?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○  Which alternatives were considered and how did experimental comparisons inform the choice?",
+          "Guiding Questions": "○  Which alternatives were considered and how did experimental comparisons inform the choice?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○  What are the limitations and foreseeable risks of the chosen metrics/thresholds?",
+          "Guiding Questions": "○  What are the limitations and foreseeable risks of the chosen metrics/thresholds?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.8.2  At which stages of development were tests performed?",
+          "Guiding Questions": "9.8.2  At which stages of development were tests performed?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.8.3 Was the system tested prior to market/service release? Consider providing evidence.",
+          "Guiding Questions": "9.8.3 Was the system tested prior to market/service release? Consider providing evidence."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.8.4 How do you ensure pre-defined metrics and thresholds remain compatible with real-world conditions and the intended context of use?",
+          "Guiding Questions": "9.8.4 How do you ensure pre-defined metrics and thresholds remain compatible with real-world conditions and the intended context of use?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.8.5 How will metrics and thresholds be adapted for real world scenarios and real-world data (i.e., unexpected data features, new feature types)?",
+          "Guiding Questions": "9.8.5 How will metrics and thresholds be adapted for real world scenarios and real-world data (i.e., unexpected data features, new feature types)?"
         }
       ]
     },
@@ -332,11 +332,11 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.9.1 Can you foresee any adverse impacts on persons under 18 or other vulnerable groups from the use of this system?",
+          "Guiding Questions": "9.9.1 Can you foresee any adverse impacts on persons under 18 or other vulnerable groups from the use of this system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.9.2 If yes, which impacts, and how does your RMS mitigate them?",
+          "Guiding Questions": "9.9.2 If yes, which impacts, and how does your RMS mitigate them?"
         }
       ]
     },
@@ -346,11 +346,11 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.10.1 Which other Union Law provisions that impose internal risk management obligations on this system have you identified?",
+          "Guiding Questions": "9.10.1 Which other Union Law provisions that impose internal risk management obligations on this system have you identified?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "9.10.2 How are those internal risk management systems integrated with the RMS established under the AI Act?",
+          "Guiding Questions": "9.10.2 How are those internal risk management systems integrated with the RMS established under the AI Act?"
         }
       ]
     }

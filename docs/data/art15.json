@@ -9,71 +9,71 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.1.1    Has the system been designed to ensure an appropriate level of accuracy?",
+          "Guiding Questions": "15.1.1    Has the system been designed to ensure an appropriate level of accuracy?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○        What are the technical measures in place in order to check for the level of accuracy?",
+          "Guiding Questions": "○        What are the technical measures in place in order to check for the level of accuracy?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○       Which is the threshold for the appropriate level of accuracy? How did you identify it? Document and Justify.",
+          "Guiding Questions": "○       Which is the threshold for the appropriate level of accuracy? How did you identify it? Document and Justify."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○       Which are the limitations of your AI system in implementing technical measures for achieving an appropriate level of accuracy?",
+          "Guiding Questions": "○       Which are the limitations of your AI system in implementing technical measures for achieving an appropriate level of accuracy?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.1.2    Has the system been designed to be technically robust (resilient to faults and failures, inconsistencies and unexpected situations) as defined in Recital 75? If so, which are the protocols that enhance its robustness?",
+          "Guiding Questions": "15.1.2    Has the system been designed to be technically robust (resilient to faults and failures, inconsistencies and unexpected situations) as defined in Recital 75? If so, which are the protocols that enhance its robustness?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○        Which are the protocols and technical measures that enhance its robustness?",
+          "Guiding Questions": "○        Which are the protocols and technical measures that enhance its robustness?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○        To which numerical threshold does the appropriate level of robustness correspond? Justify your decision.",
+          "Guiding Questions": "○        To which numerical threshold does the appropriate level of robustness correspond? Justify your decision."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.1.3 Is robustness impacted by the capability limitations of the AI system (e.g. data bottlenecks with the platform, computational cost of the operation) and the need for compliance with respect to other requirements? Document your reasoning and if applicable, measure the impact.",
+          "Guiding Questions": "15.1.3 Is robustness impacted by the capability limitations of the AI system (e.g. data bottlenecks with the platform, computational cost of the operation) and the need for compliance with respect to other requirements? Document your reasoning and if applicable, measure the impact."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.1.4    Does the system maintain cybersecurity across its full lifecycle?",
+          "Guiding Questions": "15.1.4    Does the system maintain cybersecurity across its full lifecycle?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○        Which quantitative indicator(s) and procedures did you consider to assess the appropriate level of cybersecurity? Justify your decision.",
+          "Guiding Questions": "○        Which quantitative indicator(s) and procedures did you consider to assess the appropriate level of cybersecurity? Justify your decision."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○        Which threshold(s) on the previously defined indicator(s) indicate an appropriate level of cybersecurity? Justify your decision.",
+          "Guiding Questions": "○        Which threshold(s) on the previously defined indicator(s) indicate an appropriate level of cybersecurity? Justify your decision."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○        Is there an impact of the cybersecurity measures on the other requirements in Section 2? If yes, document.",
+          "Guiding Questions": "○        Is there an impact of the cybersecurity measures on the other requirements in Section 2? If yes, document."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      Which limitations does your AI system present with respect to cybersecurity measures and procedures?",
+          "Guiding Questions": "○      Which limitations does your AI system present with respect to cybersecurity measures and procedures?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.1.5 Do you ensure compliance with the main cybersecurity regulation (i.e., NIS2)? How? Present and justify the normative integration.",
+          "Guiding Questions": "15.1.5 Do you ensure compliance with the main cybersecurity regulation (i.e., NIS2)? How? Present and justify the normative integration."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.1.6 Does the design of your AI System allow to control that an appropriate level of accuracy, robustness and cybersecurity is sustained throughout the lifecycle? If yes, document and justify your design choices.",
+          "Guiding Questions": "15.1.6 Does the design of your AI System allow to control that an appropriate level of accuracy, robustness and cybersecurity is sustained throughout the lifecycle? If yes, document and justify your design choices."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.1.7 Which are the technical measures that guarantee that appropriate levels of accuracy, robustness and cybersecurity are sustained? Justify your choice and describe the measures.",
+          "Guiding Questions": "15.1.7 Which are the technical measures that guarantee that appropriate levels of accuracy, robustness and cybersecurity are sustained? Justify your choice and describe the measures."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.1.8 Which are the limitations (e.g.  frequency) of these consistency checks? What is the impact of these limitations on sustaining an appropriate level of accuracy, robustness and cybersecurity?",
+          "Guiding Questions": "15.1.8 Which are the limitations (e.g.  frequency) of these consistency checks? What is the impact of these limitations on sustaining an appropriate level of accuracy, robustness and cybersecurity?"
         }
       ]
     },
@@ -83,23 +83,23 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.2.1    Have you checked for existing EU-approved benchmarks or metrics for your AI system?",
+          "Guiding Questions": "15.2.1    Have you checked for existing EU-approved benchmarks or metrics for your AI system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.2.2    Are your methodology and technical measures aligned with recognized standards or practices?",
+          "Guiding Questions": "15.2.2    Are your methodology and technical measures aligned with recognized standards or practices?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.2.3    Does your design allow for the update of the metrics if new EU benchmarks are issued?",
+          "Guiding Questions": "15.2.3    Does your design allow for the update of the metrics if new EU benchmarks are issued?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.2.4    If you adopted benchmarks different from the recognized standards (for limitations or any specific unagreement), did you justify how your choice still remains aligned with official standards?",
+          "Guiding Questions": "15.2.4    If you adopted benchmarks different from the recognized standards (for limitations or any specific unagreement), did you justify how your choice still remains aligned with official standards?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.2.5    If there are no recognized benchmarks, how do you justify your own benchmark adoption (comparing with state-of-the-art in the academic literature etc.)?",
+          "Guiding Questions": "15.2.5    If there are no recognized benchmarks, how do you justify your own benchmark adoption (comparing with state-of-the-art in the academic literature etc.)?"
         }
       ]
     },
@@ -109,23 +109,23 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.3.1    Have you specified the accuracy levels of the system and documented these in the instructions for use?",
+          "Guiding Questions": "15.3.1    Have you specified the accuracy levels of the system and documented these in the instructions for use?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.3.2    Are the accuracy metrics documented in the instructions for use?",
+          "Guiding Questions": "15.3.2    Are the accuracy metrics documented in the instructions for use?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.3.3    Is the documentation regarding accuracy levels and accuracy metrics understandable by the deployer?",
+          "Guiding Questions": "15.3.3    Is the documentation regarding accuracy levels and accuracy metrics understandable by the deployer?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      Is the documentation regarding accuracy levels and accuracy metrics understandable by the human overseer (i.e., recruiter)?",
+          "Guiding Questions": "○      Is the documentation regarding accuracy levels and accuracy metrics understandable by the human overseer (i.e., recruiter)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "[Please refer to Art.13.3(b)(ii))]",
+          "Guiding Questions": "[Please refer to Art.13.3(b)(ii))]"
         }
       ]
     },
@@ -135,79 +135,79 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.1    What classes of failure (e.g., software crashes, network outages, hardware faults) has the system been tested against, and how are they detected at runtime?",
+          "Guiding Questions": "15.4.1    What classes of failure (e.g., software crashes, network outages, hardware faults) has the system been tested against, and how are they detected at runtime?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.2   How do you define, and who is accountable for the system’s acceptable mean-time-to-failure and mean-time-to-repair targets?",
+          "Guiding Questions": "15.4.2   How do you define, and who is accountable for the system’s acceptable mean-time-to-failure and mean-time-to-repair targets?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.3 Which are the events that could trigger within-system and/or external error, faults or inconsistencies in your AI system?",
+          "Guiding Questions": "15.4.3 Which are the events that could trigger within-system and/or external error, faults or inconsistencies in your AI system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.4   Which are the organizational and technical measures that make the system resilient to external errors, faults or inconsistencies (e.g., unexpected user inputs, unexpected change of context)? Describe them and Justify your choice.",
+          "Guiding Questions": "15.4.4   Which are the organizational and technical measures that make the system resilient to external errors, faults or inconsistencies (e.g., unexpected user inputs, unexpected change of context)? Describe them and Justify your choice."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      Has the system been tested against external errors, faults or inconsistencies?",
+          "Guiding Questions": "○      Has the system been tested against external errors, faults or inconsistencies?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      How are external errors, faults or inconsistencies detected at runtime?",
+          "Guiding Questions": "○      How are external errors, faults or inconsistencies detected at runtime?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      For each possible external system error, fault or inconsistency, what is the course of action that you designed after detection?",
+          "Guiding Questions": "○      For each possible external system error, fault or inconsistency, what is the course of action that you designed after detection?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.5    Which are the organizational and technical measures that make the system resilient to within-system errors, faults and inconsistencies (e.g., rapid repeated queries, unusual use patterns by authorized persons)? Describe them and Justify your choice.",
+          "Guiding Questions": "15.4.5    Which are the organizational and technical measures that make the system resilient to within-system errors, faults and inconsistencies (e.g., rapid repeated queries, unusual use patterns by authorized persons)? Describe them and Justify your choice."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      Has the system been tested against within-system errors, faults and inconsistencies?",
+          "Guiding Questions": "○      Has the system been tested against within-system errors, faults and inconsistencies?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      How are within-system errors, faults and inconsistency swiftly detected at runtime?",
+          "Guiding Questions": "○      How are within-system errors, faults and inconsistency swiftly detected at runtime?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      For each possible within-system error, fault or inconsistency, what is the course of action that you designed after detection?",
+          "Guiding Questions": "○      For each possible within-system error, fault or inconsistency, what is the course of action that you designed after detection?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.6 Did you identify any event that could trigger errors, faults, or inconsistencies due to the interaction of your AI system with other systems? Describe them",
+          "Guiding Questions": "15.4.6 Did you identify any event that could trigger errors, faults, or inconsistencies due to the interaction of your AI system with other systems? Describe them"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      Has the system been tested against the identified events?",
+          "Guiding Questions": "○      Has the system been tested against the identified events?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      How are these events detected at runtime?",
+          "Guiding Questions": "○      How are these events detected at runtime?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      For each possible event, what is the course of action that you designed?",
+          "Guiding Questions": "○      For each possible event, what is the course of action that you designed?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.7 Did you identify any event that could trigger errors, faults, or inconsistencies due to errors by third-party systems on which your system depend on?",
+          "Guiding Questions": "15.4.7 Did you identify any event that could trigger errors, faults, or inconsistencies due to errors by third-party systems on which your system depend on?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      Has the system been tested against the identified events?",
+          "Guiding Questions": "○      Has the system been tested against the identified events?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      How are these events detected at runtime?",
+          "Guiding Questions": "○      How are these events detected at runtime?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○      For each possible event, what is the course of action that you designed?",
+          "Guiding Questions": "○      For each possible event, what is the course of action that you designed?"
         }
       ]
     },
@@ -217,31 +217,31 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.8    Have technical redundancy solutions (e.g., fail-safes, backups) been implemented to ensure robust and uninterrupted operation if one component fails?",
+          "Guiding Questions": "15.4.8    Have technical redundancy solutions (e.g., fail-safes, backups) been implemented to ensure robust and uninterrupted operation if one component fails?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     Are redundancy solutions documented for each component of the pipeline? Justify your choice of redundancy solutions and argue why it guarantees the appropriate level of robustness.",
+          "Guiding Questions": "○     Are redundancy solutions documented for each component of the pipeline? Justify your choice of redundancy solutions and argue why it guarantees the appropriate level of robustness."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.9    Where do you maintain redundant copies of critical models, data, and services?",
+          "Guiding Questions": "15.4.9    Where do you maintain redundant copies of critical models, data, and services?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     Who is responsible for the appropriate maintainance of these redundant copies?",
+          "Guiding Questions": "○     Who is responsible for the appropriate maintainance of these redundant copies?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.10    How often are backups performed, and how do you verify backup integrity and restore procedures?",
+          "Guiding Questions": "15.4.10    How often are backups performed, and how do you verify backup integrity and restore procedures?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     Who is responsible for the backup operation and for the verification of backup integrity and restore procedures?",
+          "Guiding Questions": "○     Who is responsible for the backup operation and for the verification of backup integrity and restore procedures?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.11    What capacity-planning forecasts ensure that redundant resources can handle peak load if the primary path fails? Document and justify your expectations.",
+          "Guiding Questions": "15.4.11    What capacity-planning forecasts ensure that redundant resources can handle peak load if the primary path fails? Document and justify your expectations."
         }
       ]
     },
@@ -251,55 +251,55 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.12    Is your system learning after deployment?",
+          "Guiding Questions": "15.4.12    Is your system learning after deployment?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.13    Which inputs are used for learning after deployment (e.g., machine outputs, human feedback, monitoring and decisions)?",
+          "Guiding Questions": "15.4.13    Which inputs are used for learning after deployment (e.g., machine outputs, human feedback, monitoring and decisions)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.14    How do you assess the effect that such inputs may have on the quality of data eventually leading to a change in fairness assessments?",
+          "Guiding Questions": "15.4.14    How do you assess the effect that such inputs may have on the quality of data eventually leading to a change in fairness assessments?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.15    How are input data used by the AI system (i.e., in addition to processing, for instance for post-deployment learning)?",
+          "Guiding Questions": "15.4.15    How are input data used by the AI system (i.e., in addition to processing, for instance for post-deployment learning)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.16 Can you describe the learning procedure where outputs are used as inputs in future operations?",
+          "Guiding Questions": "15.4.16 Can you describe the learning procedure where outputs are used as inputs in future operations?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○    With which timing this operation is performed?",
+          "Guiding Questions": "○    With which timing this operation is performed?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○    How do you ensure that induced bias is detected swiftly as to ensure an appropriate level of robustness?",
+          "Guiding Questions": "○    How do you ensure that induced bias is detected swiftly as to ensure an appropriate level of robustness?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.17    If the system continues to learn post-deployment, how do you ensure it prevents or reduces low-quality outputs from feeding future learning?",
+          "Guiding Questions": "15.4.17    If the system continues to learn post-deployment, how do you ensure it prevents or reduces low-quality outputs from feeding future learning?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     Does your design include mitigation strategies? If yes, justify your choice.",
+          "Guiding Questions": "○     Does your design include mitigation strategies? If yes, justify your choice."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     How do you assess if a mitigation strategy has been successful or not?",
+          "Guiding Questions": "○     How do you assess if a mitigation strategy has been successful or not?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     What is your designed course of action in case the mitigation strategy fails?",
+          "Guiding Questions": "○     What is your designed course of action in case the mitigation strategy fails?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.18 Which are the technical and organizational safeguards put in place so to guarantee that the new input data is not  poisoned (e.g. due to tampering by authorized or unauthorized personnnel)?",
+          "Guiding Questions": "15.4.18 Which are the technical and organizational safeguards put in place so to guarantee that the new input data is not  poisoned (e.g. due to tampering by authorized or unauthorized personnnel)?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.4.19 Which are the technical and organizational safeguards put in place so to guarantee that the model has not been tampered with during the feedback loop procedure (e.g. due to adversarial attacks)?",
+          "Guiding Questions": "15.4.19 Which are the technical and organizational safeguards put in place so to guarantee that the model has not been tampered with during the feedback loop procedure (e.g. due to adversarial attacks)?"
         }
       ]
     },
@@ -309,103 +309,103 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.1    Which internal and external threat actors and attack vectors have you identified?",
+          "Guiding Questions": "15.5.1    Which internal and external threat actors and attack vectors have you identified?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.2    How have you classified cybersecurity risks by severity and likelihood, and how often are the risks and severity likelihood of your threat model re-evaluated?",
+          "Guiding Questions": "15.5.2    How have you classified cybersecurity risks by severity and likelihood, and how often are the risks and severity likelihood of your threat model re-evaluated?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.3    Which are the technical measures (e.g. anomaly detection on incoming data streams) that you use to spot unusual patterns indicative of poisoning attempts?",
+          "Guiding Questions": "15.5.3    Which are the technical measures (e.g. anomaly detection on incoming data streams) that you use to spot unusual patterns indicative of poisoning attempts?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.4    If you incorporate third-party or pre-trained components, how do you check the integrity of such components?",
+          "Guiding Questions": "15.5.4    If you incorporate third-party or pre-trained components, how do you check the integrity of such components?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.5  Have you implemented protocols for security and deception risks rising from the input data in inference time, e.g., adversarial examples and white fonting attacks?",
+          "Guiding Questions": "15.5.5  Have you implemented protocols for security and deception risks rising from the input data in inference time, e.g., adversarial examples and white fonting attacks?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.6   How are updates to pre-trained models authenticated, versioned, and logged to prevent silent insertion of malicious weights?",
+          "Guiding Questions": "15.5.6   How are updates to pre-trained models authenticated, versioned, and logged to prevent silent insertion of malicious weights?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.7    Which adversarial-robustness techniques (i.e., adversarial training, input preprocessing) are integrated to protect the model against adversarial attacks?",
+          "Guiding Questions": "15.5.7    Which adversarial-robustness techniques (i.e., adversarial training, input preprocessing) are integrated to protect the model against adversarial attacks?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.8    Do you run automated penetration tests targeting AI-specific vulnerabilities?",
+          "Guiding Questions": "15.5.8    Do you run automated penetration tests targeting AI-specific vulnerabilities?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     How often do you run them? Justify your decision.",
+          "Guiding Questions": "○     How often do you run them? Justify your decision."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     Are the test procedures and logs documented?",
+          "Guiding Questions": "○     Are the test procedures and logs documented?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "○     Who is responsible for the penetration tests and their appropriate documentation?",
+          "Guiding Questions": "○     Who is responsible for the penetration tests and their appropriate documentation?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.9    In case of incident (e.g. data poisoning, model poisoning), are logs and data securely collected to allow an appropriate post-incident analysis?",
+          "Guiding Questions": "15.5.9    In case of incident (e.g. data poisoning, model poisoning), are logs and data securely collected to allow an appropriate post-incident analysis?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.10    Are access controls in place to prevent unauthorized use or modification of the system?",
+          "Guiding Questions": "15.5.10    Are access controls in place to prevent unauthorized use or modification of the system?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.11    Are monitoring systems in place to detect tampering or misuse?",
+          "Guiding Questions": "15.5.11    Are monitoring systems in place to detect tampering or misuse?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.12    Have you identified and addressed model flaws such as inherent design vulnerabilities?",
+          "Guiding Questions": "15.5.12    Have you identified and addressed model flaws such as inherent design vulnerabilities?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.13    Do you have technical and organizational measures put in place to appropriately address Confidentiality attacks (e.g. leakage of training data)? Describe them.",
+          "Guiding Questions": "15.5.13    Do you have technical and organizational measures put in place to appropriately address Confidentiality attacks (e.g. leakage of training data)? Describe them."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.14    Is a cybersecurity strategy in place, adapted to the context and risk profile of the system? Describe it and justify your design.",
+          "Guiding Questions": "15.5.14    Is a cybersecurity strategy in place, adapted to the context and risk profile of the system? Describe it and justify your design."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.15    Which cybersecurity measures are in place to prevent cybersecurity attacks? Describe them and justify their appropriateness.",
+          "Guiding Questions": "15.5.15    Which cybersecurity measures are in place to prevent cybersecurity attacks? Describe them and justify their appropriateness."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.16    Which cybersecurity measures are in place to detect incidents? Describe them and justify their appropriateness.",
+          "Guiding Questions": "15.5.16    Which cybersecurity measures are in place to detect incidents? Describe them and justify their appropriateness."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.17    Which cybersecurity measures are in place to respond to breaches? Describe them and justify their appropriateness.",
+          "Guiding Questions": "15.5.17    Which cybersecurity measures are in place to respond to breaches? Describe them and justify their appropriateness."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.18   Which cybersecurity measures are in place to resolve threats? Describe them and justify their appropriateness.",
+          "Guiding Questions": "15.5.18   Which cybersecurity measures are in place to resolve threats? Describe them and justify their appropriateness."
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.19    Which cybersecurity measures are in place to control and monitor the system continuously?",
+          "Guiding Questions": "15.5.19    Which cybersecurity measures are in place to control and monitor the system continuously?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "15.5.20    Are cybersecurity risks periodically reassessed (e.g., after updates or retraining)?If yes, how?",
+          "Guiding Questions": "15.5.20    Are cybersecurity risks periodically reassessed (e.g., after updates or retraining)?If yes, how?"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "[Regarding to cybersecurity aspects, for completeness refer to cybersecurity law (i.e., NIS2).]",
+          "Guiding Questions": "[Regarding to cybersecurity aspects, for completeness refer to cybersecurity law (i.e., NIS2).]"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "If the AI system has been developed by integrating GPAI models, what transparency measures have been adopted, taking into account the specific characteristics of such models? What technical measures and contractual safeguards have been put in place?",
+          "Guiding Questions": "If the AI system has been developed by integrating GPAI models, what transparency measures have been adopted, taking into account the specific characteristics of such models? What technical measures and contractual safeguards have been put in place?"
         }
       ]
     }
