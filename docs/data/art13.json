@@ -4,73 +4,73 @@
   "requirement": "Art. 13: Transparency and Provision of Information to Deployers\n\nTrasversal Questions",
   "rows": [
     {
-      "Compliance checklist": "●       1. The high-risk system is designed and developed with sufficient transparency to enable the appropriate use of the system and the interpretation of its output by deployers. The type and degree of transparency must ensure compliance with the obligations of the provider and deployer given in Section 3.",
+      "Compliance checklist": "1. The high-risk system is designed and developed with sufficient transparency to enable the appropriate use of the system and the interpretation of its output by deployers. The type and degree of transparency must ensure compliance with the obligations of the provider and deployer given in Section 3.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.1     During the design phase of your system, did you explicitly address how deployers will interpret and act on outputs?",
+          "Guiding Questions": "13.1.1     During the design phase of your system, did you explicitly address how deployers will interpret and act on outputs?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.2     Is your architecture interpretable-by-design or a blackbox?",
+          "Guiding Questions": "13.1.2     Is your architecture interpretable-by-design or a blackbox?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.3    Considering the adopted architecture and intended context of use, what level of transparency does your application provide, and what are its main limitations?",
+          "Guiding Questions": "13.1.3    Considering the adopted architecture and intended context of use, what level of transparency does your application provide, and what are its main limitations?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.4    How do you define a sufficient and appropriate degree of transparency in your application?",
+          "Guiding Questions": "13.1.4    How do you define a sufficient and appropriate degree of transparency in your application?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.5     How did you validate your definition of “appropriate degree of transparency” with final deployers (i.e. recruiters)?",
+          "Guiding Questions": "13.1.5     How did you validate your definition of “appropriate degree of transparency” with final deployers (i.e. recruiters)?",
           "In-Context": "X"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.6     Once you have defined the target transparency level, how do you implement it in code and/or UI?",
+          "Guiding Questions": "13.1.6     Once you have defined the target transparency level, how do you implement it in code and/or UI?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.7     What is the output of your AI system? Is it represented by a single value (i.e., prediction score, ranking) or by a set of information (e.g., confidence scores, explanations)?",
+          "Guiding Questions": "13.1.7     What is the output of your AI system? Is it represented by a single value (i.e., prediction score, ranking) or by a set of information (e.g., confidence scores, explanations)?",
           "In-Context": "X"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.8   Does the information provided by the AI system to ensure transparency and interpretability accurately reflect the algorithmic process that generated the output? How is the accuracy of this representation verified?",
+          "Guiding Questions": "13.1.8   Does the information provided by the AI system to ensure transparency and interpretability accurately reflect the algorithmic process that generated the output? How is the accuracy of this representation verified?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.9     Beyond built‑in transparency tools, what training materials, quick‑start guides, or “interpretation playbooks” do you provide to deployers?",
+          "Guiding Questions": "13.1.9     Beyond built‑in transparency tools, what training materials, quick‑start guides, or “interpretation playbooks” do you provide to deployers?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.10     How do you verify that deployers correctly interpret the output of the AI system and use it appropriately within their decision-making process (e.g., post-deployment surveys)? In case of negative response, how do you correct the interpretability design?",
+          "Guiding Questions": "13.1.10     How do you verify that deployers correctly interpret the output of the AI system and use it appropriately within their decision-making process (e.g., post-deployment surveys)? In case of negative response, how do you correct the interpretability design?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.11     How and how often do you audit or test the interpretability of the AI system (e.g., A/B tests with varying information payload depths, simulated misuse scenarios)?",
+          "Guiding Questions": "13.1.11     How and how often do you audit or test the interpretability of the AI system (e.g., A/B tests with varying information payload depths, simulated misuse scenarios)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.12     How do you communicate to deployers (i) the residual opacity of the AI system and (ii) the limitations of the adopted interpretability techniques?",
+          "Guiding Questions": "13.1.12     How do you communicate to deployers (i) the residual opacity of the AI system and (ii) the limitations of the adopted interpretability techniques?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.13    Do you use techniques coming from Explainable AI literature to ensure an appropriate degree of transparency and interpretability of the outputs and of the process generating it?",
+          "Guiding Questions": "13.1.13    Do you use techniques coming from Explainable AI literature to ensure an appropriate degree of transparency and interpretability of the outputs and of the process generating it?",
           "In-Context": ""
         },
         {
@@ -85,24 +85,24 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.14     Do you provide deployers with interpretability tools to correctly interpret both the the job-matching score (i.e., intermediate output in the AI architecture) and the relative ranking given by scores on different individuals (i.e., final output)?",
+          "Guiding Questions": "13.1.14     Do you provide deployers with interpretability tools to correctly interpret both the the job-matching score (i.e., intermediate output in the AI architecture) and the relative ranking given by scores on different individuals (i.e., final output)?",
           "In-Context": "X"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.1.15 In case of candidates whose scores cannot be differentiate in a statistical significant manner, how is this information communicated to deployers?",
+          "Guiding Questions": "13.1.15 In case of candidates whose scores cannot be differentiate in a statistical significant manner, how is this information communicated to deployers?",
           "In-Context": "X"
         }
       ]
     },
     {
-      "Compliance checklist": "●       2. Appropriate instructions to use the high-risk system are provided in an appropriate digital format or otherwise, to achieve compliance with the relevant obligations. These instructions are concise, complete, correct and clear as well as relevant, accessible and comprehensible to deployers.",
+      "Compliance checklist": "2. Appropriate instructions to use the high-risk system are provided in an appropriate digital format or otherwise, to achieve compliance with the relevant obligations. These instructions are concise, complete, correct and clear as well as relevant, accessible and comprehensible to deployers.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.2.1     In which format are the instructions for use provided to deployers? And what is their content?",
+          "Guiding Questions": "13.2.1     In which format are the instructions for use provided to deployers? And what is their content?",
           "In-Context": ""
         },
         {
@@ -112,12 +112,12 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.2.2     What level of AI literacy is required to understand the provided instructions for use?",
+          "Guiding Questions": "13.2.2     What level of AI literacy is required to understand the provided instructions for use?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.2.3     Did you receive feedback from deployers about the quality of the instruction for use (i.e. are such information concise, complete, correct, clear, relevant, accessible and comprehensible)?",
+          "Guiding Questions": "13.2.3     Did you receive feedback from deployers about the quality of the instruction for use (i.e. are such information concise, complete, correct, clear, relevant, accessible and comprehensible)?",
           "In-Context": ""
         }
       ]
@@ -129,23 +129,23 @@
       "_children": []
     },
     {
-      "Compliance checklist": "●       3(a) the identity and the contact details of the provider and, where applicable, of its authorised representative",
+      "Compliance checklist": "3(a) the identity and the contact details of the provider and, where applicable, of its authorised representative",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.a.1    Are the identity and contact details of the provider included in the instructions given alongside your application?",
+          "Guiding Questions": "13.3.a.1    Are the identity and contact details of the provider included in the instructions given alongside your application?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.a.2     If applicable in your application, are the identity and contact details of the authorised representative of the provider given in the instructions?",
+          "Guiding Questions": "13.3.a.2     If applicable in your application, are the identity and contact details of the authorised representative of the provider given in the instructions?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.a.3     Does the instructions for use contain the identity and the contact details of the upstream provider in the case of integration of a third-party model? If not, why?",
+          "Guiding Questions": "13.3.a.3     Does the instructions for use contain the identity and the contact details of the upstream provider in the case of integration of a third-party model? If not, why?",
           "In-Context": ""
         }
       ]
@@ -157,13 +157,13 @@
       "_children": []
     },
     {
-      "Compliance checklist": "●  3(b)(i) the intended purpose of the high-risk AI system.",
+      "Compliance checklist": "3(b)(i) the intended purpose of the high-risk AI system.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.1     Do the instructions include the intended purpose of the system?",
+          "Guiding Questions": "13.3.b.1     Do the instructions include the intended purpose of the system?",
           "In-Context": ""
         }
       ]
@@ -175,22 +175,22 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.2     Do the instructions include the level of accuracy of your system, including the metrics, robustness and cybersecurity, against which your system has been tested and validated?",
+          "Guiding Questions": "13.3.b.2     Do the instructions include the level of accuracy of your system, including the metrics, robustness and cybersecurity, against which your system has been tested and validated?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.3     Do the instructions include any known and foreseeable circumstances that may affect the level of accuracy, robustness and cybersecurity?",
+          "Guiding Questions": "13.3.b.3     Do the instructions include any known and foreseeable circumstances that may affect the level of accuracy, robustness and cybersecurity?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.4     Do your instructions state and justify any problem and limitations in defining metrics regarding accuracy, robustness and cybersecurity in the test or validation phase?",
+          "Guiding Questions": "13.3.b.4     Do your instructions state and justify any problem and limitations in defining metrics regarding accuracy, robustness and cybersecurity in the test or validation phase?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "● 13.3.b.5    Do your instructions include some guidelines on how to handle foreseeable and/or unforeseeable drops in the level of accuracy, robustness and cybersecurity?",
+          "Guiding Questions": "13.3.b.5    Do your instructions include some guidelines on how to handle foreseeable and/or unforeseeable drops in the level of accuracy, robustness and cybersecurity?",
           "In-Context": ""
         },
         {
@@ -205,7 +205,7 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "● 13.3.b.6 Is there an update mechanism to add unforeseen circumstances in the instruction for use after they have been identified in deployment?",
+          "Guiding Questions": "13.3.b.6 Is there an update mechanism to add unforeseen circumstances in the instruction for use after they have been identified in deployment?",
           "In-Context": ""
         },
         {
@@ -222,7 +222,7 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.7     Do the instructions include any known or foreseeable circumstance which may lead to risks to the health and safety or fundamental rights",
+          "Guiding Questions": "13.3.b.7     Do the instructions include any known or foreseeable circumstance which may lead to risks to the health and safety or fundamental rights",
           "In-Context": ""
         },
         {
@@ -237,12 +237,12 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.8 For each of the known and foreseeable circumstances which may lead to risks to the health and safety or fundamental rights, do you have an explicit plan on how to handle them?",
+          "Guiding Questions": "13.3.b.8 For each of the known and foreseeable circumstances which may lead to risks to the health and safety or fundamental rights, do you have an explicit plan on how to handle them?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.9 Given the context of use, does your instruction for use contain guidelines on how to handle input data which is not comparable with the one on which it has been tested and validated (e.g. in terms of sensitive attributes)?",
+          "Guiding Questions": "13.3.b.9 Given the context of use, does your instruction for use contain guidelines on how to handle input data which is not comparable with the one on which it has been tested and validated (e.g. in terms of sensitive attributes)?",
           "In-Context": ""
         },
         {
@@ -259,22 +259,22 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.10     Does the instruction for use include the technical capabilities and limitations for the AI system to explain this output (e.g. Explainable AI techniques)?",
+          "Guiding Questions": "13.3.b.10     Does the instruction for use include the technical capabilities and limitations for the AI system to explain this output (e.g. Explainable AI techniques)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.11 Does the document contain instructions on how to intepret and comprehend the output of the System (e.g. how to interpret different visualizations given by the interpretability techniques used)?",
+          "Guiding Questions": "13.3.b.11 Does the document contain instructions on how to intepret and comprehend the output of the System (e.g. how to interpret different visualizations given by the interpretability techniques used)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.12     If not included, why do you think it is not applicable to your context of use?",
+          "Guiding Questions": "13.3.b.12     If not included, why do you think it is not applicable to your context of use?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.13     If not included, what are the foreseeable consequences on an appropriate human oversight (Art.14)?",
+          "Guiding Questions": "13.3.b.13     If not included, what are the foreseeable consequences on an appropriate human oversight (Art.14)?",
           "In-Context": ""
         }
       ]
@@ -286,22 +286,22 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.14     If appropriate in your application, do the instructions include the performance of your system regarding specific persons or groups of persons on which the system is intended to be used?",
+          "Guiding Questions": "13.3.b.14     If appropriate in your application, do the instructions include the performance of your system regarding specific persons or groups of persons on which the system is intended to be used?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.15  If not appropriate did you state it in the instruction of use?",
+          "Guiding Questions": "13.3.b.15  If not appropriate did you state it in the instruction of use?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.16 Does the instruction for use detail the means of communication in which the deployer will be informed in the case of a curriculum processing that does not belong to the group of persons for which the Systems has been tested and validated?",
+          "Guiding Questions": "13.3.b.16 Does the instruction for use detail the means of communication in which the deployer will be informed in the case of a curriculum processing that does not belong to the group of persons for which the Systems has been tested and validated?",
           "In-Context": "x"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.17 Does your instruction for use detail what to do in case of a curriculum processing that does not belong to the group of persons for which the system is tested and validated?",
+          "Guiding Questions": "13.3.b.17 Does your instruction for use detail what to do in case of a curriculum processing that does not belong to the group of persons for which the system is tested and validated?",
           "In-Context": "x"
         }
       ]
@@ -313,32 +313,32 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.18     If appropriate, do the instructions cover the characteristics, capabilities, and limitations of your input data, validation, and testing data, based on the system’s intended purpose?",
+          "Guiding Questions": "13.3.b.18     If appropriate, do the instructions cover the characteristics, capabilities, and limitations of your input data, validation, and testing data, based on the system’s intended purpose?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.19 Does the instruction for use contain information about the modalities of input data that can be processed by the AI System (e.g. text, images, video and combinations thereof)?",
+          "Guiding Questions": "13.3.b.19 Does the instruction for use contain information about the modalities of input data that can be processed by the AI System (e.g. text, images, video and combinations thereof)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.20 Does the instruction for use contain specifications about different characters sets of textual input data (e.g. latin alphabet, greek script, cyrillic, chinese)?",
+          "Guiding Questions": "13.3.b.20 Does the instruction for use contain specifications about different characters sets of textual input data (e.g. latin alphabet, greek script, cyrillic, chinese)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.21 Does the instruction for use contain limitations about the input data formats (e.g. document layout and length and video formats)?",
+          "Guiding Questions": "13.3.b.21 Does the instruction for use contain limitations about the input data formats (e.g. document layout and length and video formats)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.22 Does the instruction for use contain limitations of the quantity and representativeness of the input data in terms of special categories of personal data?",
+          "Guiding Questions": "13.3.b.22 Does the instruction for use contain limitations of the quantity and representativeness of the input data in terms of special categories of personal data?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.23     If not included, why do you think it is not appropriate for your context of use?",
+          "Guiding Questions": "13.3.b.23     If not included, why do you think it is not appropriate for your context of use?",
           "In-Context": ""
         },
         {
@@ -355,7 +355,7 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.b.24    If applicable to your application, do the instructions include information for interpreting the output of the system and to using it appropriately by deployers?",
+          "Guiding Questions": "13.3.b.24    If applicable to your application, do the instructions include information for interpreting the output of the system and to using it appropriately by deployers?",
           "In-Context": ""
         },
         {
@@ -377,13 +377,13 @@
       "_children": []
     },
     {
-      "Compliance checklist": "●       3(c). the changes to the high-risk AI system and its performance which have been predetermined by the provider at the moment of the initial conformity assessment, if any;",
+      "Compliance checklist": "3(c). the changes to the high-risk AI system and its performance which have been predetermined by the provider at the moment of the initial conformity assessment, if any;",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.c.1     Are there any changes to your AI system which are predetermined by the provider at the moment of initial conformity assessment?",
+          "Guiding Questions": "13.3.c.1     Are there any changes to your AI system which are predetermined by the provider at the moment of initial conformity assessment?",
           "In-Context": ""
         },
         {
@@ -409,33 +409,33 @@
       ]
     },
     {
-      "Compliance checklist": "●       3(d). human oversight measures including technical measures to facilitate the interpretation of the output of the AI system by deployers (Article 14).",
+      "Compliance checklist": "3(d). human oversight measures including technical measures to facilitate the interpretation of the output of the AI system by deployers (Article 14).",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.d.1     Do the instructions include human oversight measures? Describe them.",
+          "Guiding Questions": "13.3.d.1     Do the instructions include human oversight measures? Describe them.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.d.2     Do the instructions include the technical measures to facilitate the interpretation of the output by deployers? Describe them.",
+          "Guiding Questions": "13.3.d.2     Do the instructions include the technical measures to facilitate the interpretation of the output by deployers? Describe them.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.d.3    Do you address the problem of “interpretability” (or comprehensibility, legibility) of the output by the deployers?",
+          "Guiding Questions": "13.3.d.3    Do you address the problem of “interpretability” (or comprehensibility, legibility) of the output by the deployers?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.d.4 Does the instruction for use include information on the technical measures implemented to verify the faithfulness and robustness of interpretability techniques in supporting the interpretation of the system’s output?",
+          "Guiding Questions": "13.3.d.4 Does the instruction for use include information on the technical measures implemented to verify the faithfulness and robustness of interpretability techniques in supporting the interpretation of the system’s output?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.d.5 Does the instruction for use provide guidance on how to interpret results in cases where candidate scores are nearly identical, particularly to support the recognition of nuanced distinctions among them?",
+          "Guiding Questions": "13.3.d.5 Does the instruction for use provide guidance on how to interpret results in cases where candidate scores are nearly identical, particularly to support the recognition of nuanced distinctions among them?",
           "In-Context": "X"
         },
         {
@@ -446,40 +446,40 @@
       ]
     },
     {
-      "Compliance checklist": "●       3(e). the needed computational and hardware resource specifications, the expected lifetime of the system, maintenance and care measures, including software updates, and their frequency.",
+      "Compliance checklist": "3(e). the needed computational and hardware resource specifications, the expected lifetime of the system, maintenance and care measures, including software updates, and their frequency.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.e.1     Do the instructions include the needed hardware specifications?",
+          "Guiding Questions": "13.3.e.1     Do the instructions include the needed hardware specifications?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.e.2     Do the instructions include maintenance and care measures, including software updates, and their frequency?",
+          "Guiding Questions": "13.3.e.2     Do the instructions include maintenance and care measures, including software updates, and their frequency?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.e.3 Do the instructions include the minimal hardware requirements that the deployer would need in order to use the AI system appropriately?",
+          "Guiding Questions": "13.3.e.3 Do the instructions include the minimal hardware requirements that the deployer would need in order to use the AI system appropriately?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.e.4 Do the instructions include the expected lifetime of the AI system and what to do after the expiration date?",
+          "Guiding Questions": "13.3.e.4 Do the instructions include the expected lifetime of the AI system and what to do after the expiration date?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●       3(f). If relevant, instructions include the description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs (Art.12).",
+      "Compliance checklist": "3(f). If relevant, instructions include the description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs (Art.12).",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●13.3.f.1     Does your high-risk AI system allow deployers to collect, store and interpret logs?",
+          "Guiding Questions": "13.3.f.1     Does your high-risk AI system allow deployers to collect, store and interpret logs?",
           "In-Context": ""
         },
         {

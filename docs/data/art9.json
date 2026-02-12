@@ -4,234 +4,234 @@
   "requirement": "Art. 9: Risk Management System\n\n(Risk of harm = Probability of an Occurrence of harm and severity of that harm)\n\n[Recital 65]\nThe risk-management system should consist of a continuous, iterative process that is planned and run throughout the entire lifecycle of a high-risk AI system. That process should be aimed at identifying and mitigating the relevant risks of AI systems on health, safety and fundamental rights. The risk-management system should be regularly reviewed and updated to ensure its continuing effectiveness, as well as justification and documentation of any significant decisions and actions taken subject to this Regulation. This process should ensure that the provider identifies risks or adverse impacts and implements mitigation measures for the known and reasonably foreseeable risks of AI systems to the health, safety and fundamental rights in light of their intended purpose and reasonably foreseeable misuse, including the possible risks arising from the interaction between the AI system and the environment within which it operates. The risk-management system should adopt the most appropriate risk-management measures in light of the state of the art in AI. When identifying the most appropriate risk-management measures, the provider should document and explain the choices made and, when relevant, involve experts and external stakeholders. In identifying the reasonably foreseeable misuse of high-risk AI systems, the provider should cover uses of AI systems which, while not directly covered by the intended purpose and provided for in the instruction for use may nevertheless be reasonably expected to result from readily predictable human behaviour in the context of the specific characteristics and use of a particular AI system. Any known or foreseeable circumstances related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights should be included in the instructions for use that are provided by the provider. This is to ensure that the deployer is aware and takes them into account when using the high-risk AI system. Identifying and implementing risk mitigation measures for foreseeable misuse under this Regulation should not require specific additional training for the high-risk AI system by the provider to address foreseeable misuse. The providers however are encouraged to consider such additional training measures to mitigate reasonable foreseeable misuses as necessary and appropriate.",
   "rows": [
     {
-      "Compliance checklist": "●     1. A risk management system is established, implemented, documented and maintained in relation to high-risk AI systems.",
+      "Compliance checklist": "1. A risk management system is established, implemented, documented and maintained in relation to high-risk AI systems.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "● 9.1.1     Is it a RMS established?",
+          "Guiding Questions": "9.1.1     Is it a RMS established?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   9.1.2   How is the RMS implemented?",
+          "Guiding Questions": "9.1.2   How is the RMS implemented?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.1.3  How is the RMS documented and maintained?",
+          "Guiding Questions": "9.1.3  How is the RMS documented and maintained?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     2. The risk management system is understood as a continuous iterative process planned and run throughout the entire lifecycle of an high-risk AI system, and a systematic review and updating process is defined.",
+      "Compliance checklist": "2. The risk management system is understood as a continuous iterative process planned and run throughout the entire lifecycle of an high-risk AI system, and a systematic review and updating process is defined.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.2.1 What is the definition of a continuous iterative process in your context?",
+          "Guiding Questions": "9.2.1 What is the definition of a continuous iterative process in your context?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.2.2 Which are the rules or conditions for initiating an RMS iteration?",
+          "Guiding Questions": "9.2.2 Which are the rules or conditions for initiating an RMS iteration?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.2.4 For each RMS iteration, what is the cadence and how do you justify that cadence as effective at reducing the identified risk?",
+          "Guiding Questions": "9.2.4 For each RMS iteration, what is the cadence and how do you justify that cadence as effective at reducing the identified risk?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.2.5  Is the RMS applied across the entire AI system lifecycle? How does the RMS differ at each lifecycle phase?",
+          "Guiding Questions": "9.2.5  Is the RMS applied across the entire AI system lifecycle? How does the RMS differ at each lifecycle phase?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.2.6 How is the systematic review of the RMS defined?",
+          "Guiding Questions": "9.2.6 How is the systematic review of the RMS defined?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.2.7  How is the updating process of the RMS defined?",
+          "Guiding Questions": "9.2.7  How is the updating process of the RMS defined?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     2(a). The risk management system identifies and analyses the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose.",
+      "Compliance checklist": "2(a). The risk management system identifies and analyses the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.2.a.1 Which known risks can the AI system pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose?",
+          "Guiding Questions": "9.2.a.1 Which known risks can the AI system pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   9.2.a.2  Which reasonably foreseeable risks can the AI system pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose?",
+          "Guiding Questions": "9.2.a.2  Which reasonably foreseeable risks can the AI system pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●  9.2.a.3   Which rights are most likely to be impacted by your AI system? How will your Fundamental Rights Assessment (Art. 27) identify, measure, and mitigate those impacts?",
+          "Guiding Questions": "9.2.a.3   Which rights are most likely to be impacted by your AI system? How will your Fundamental Rights Assessment (Art. 27) identify, measure, and mitigate those impacts?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●  9.2.a.4 Which methods and evidence do you use to analyse known and reasonably foreseeable risks? For each risk, consider providing metrics, thresholds, documented findings, and the mitigation/acceptance decision.",
+          "Guiding Questions": "9.2.a.4 Which methods and evidence do you use to analyse known and reasonably foreseeable risks? For each risk, consider providing metrics, thresholds, documented findings, and the mitigation/acceptance decision.",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     2(b). The risk management system estimates and evaluates the risks that may emerge when the AI system is used in accordance with its intended purpose and under condition of reasonable and foreseeable misuse.",
+      "Compliance checklist": "2(b). The risk management system estimates and evaluates the risks that may emerge when the AI system is used in accordance with its intended purpose and under condition of reasonable and foreseeable misuse.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.2.b.1 Which methods and/or tools does the RMS use to estimate and evaluate risks? For each consider providing details and sample evidence.",
+          "Guiding Questions": "9.2.b.1 Which methods and/or tools does the RMS use to estimate and evaluate risks? For each consider providing details and sample evidence.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.2.b.2 How do you validate the robustness of risk estimates and evaluations? Consider describing the validation methods used.",
+          "Guiding Questions": "9.2.b.2 How do you validate the robustness of risk estimates and evaluations? Consider describing the validation methods used.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.2.b.3  List the reasonable and foreseeable misuse scenario you identified for this system. For each identified misuse scenario, show the likelihood, potential harms and where and how it is addressed in the pipeline.",
+          "Guiding Questions": "9.2.b.3  List the reasonable and foreseeable misuse scenario you identified for this system. For each identified misuse scenario, show the likelihood, potential harms and where and how it is addressed in the pipeline.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.2.b.5 Why are the chosen risk estimation and evaluation approaches appropriate for the system's intended purpose?",
+          "Guiding Questions": "9.2.b.5 Why are the chosen risk estimation and evaluation approaches appropriate for the system's intended purpose?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     2(c). The risk management system evaluates the (other) risks possibly arising from the analysis of the data gathered by the post-market monitoring system in compliance with Article 72.",
+      "Compliance checklist": "2(c). The risk management system evaluates the (other) risks possibly arising from the analysis of the data gathered by the post-market monitoring system in compliance with Article 72.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.2.c.1  How does post-market monitoring data feed into the RMS?",
+          "Guiding Questions": "9.2.c.1  How does post-market monitoring data feed into the RMS?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.2.c.2 Is a documented integration pipeline implemented between the post market monitoring and RMS? If yes, please provide the pipeline specification.",
+          "Guiding Questions": "9.2.c.2 Is a documented integration pipeline implemented between the post market monitoring and RMS? If yes, please provide the pipeline specification.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.2.c.3 Which analysis methods and criteria do you apply to post market monitoring data to detect whether unforeseen risks emerged?",
+          "Guiding Questions": "9.2.c.3 Which analysis methods and criteria do you apply to post market monitoring data to detect whether unforeseen risks emerged?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.2.c.4  Is there a correction pipeline planned and described for each new identified risk detected via post market monitoring data analysis?",
+          "Guiding Questions": "9.2.c.4  Is there a correction pipeline planned and described for each new identified risk detected via post market monitoring data analysis?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.2.c.5 If you plan to update the pipeline, how will those updates be implemented?",
+          "Guiding Questions": "9.2.c.5 If you plan to update the pipeline, how will those updates be implemented?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     2(d). The risk management system adopts appropriate and targeted risk management measures pursuant point 2(a).",
+      "Compliance checklist": "2(d). The risk management system adopts appropriate and targeted risk management measures pursuant point 2(a).",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.2.d.1 Which measures did you adopt to implement an appropriate and targeted assessment of risks regarding health, safety and fundamental rights?",
+          "Guiding Questions": "9.2.d.1 Which measures did you adopt to implement an appropriate and targeted assessment of risks regarding health, safety and fundamental rights?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     3. The risk management system addresses only the risks that can be reasonably mitigated or eliminated by appropriate development or design of the AI system, or by the provision of adequate technical documentation.",
+      "Compliance checklist": "3. The risk management system addresses only the risks that can be reasonably mitigated or eliminated by appropriate development or design of the AI system, or by the provision of adequate technical documentation.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.3.1 Have you identified the risks that can be reasonably mitigated or eliminated? Provide a list of such risks and describe the methods and criteria used to decide that a given risk is reasonably mitigable.",
+          "Guiding Questions": "9.3.1 Have you identified the risks that can be reasonably mitigated or eliminated? Provide a list of such risks and describe the methods and criteria used to decide that a given risk is reasonably mitigable.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●  9.3.3  Are there foreseeable risks to health, safety, or fundamental rights that cannot reasonably be mitigated or eliminated? Why are those risks not reasonably mitigable, and how did you determine that?",
+          "Guiding Questions": "9.3.3  Are there foreseeable risks to health, safety, or fundamental rights that cannot reasonably be mitigated or eliminated? Why are those risks not reasonably mitigable, and how did you determine that?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     4. The adopted risk management measures (set out in Article 9.2(d)) gives consideration to the effects and possible interactions resulting from their combined application with the requirements set out in Section 2, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.",
+      "Compliance checklist": "4. The adopted risk management measures (set out in Article 9.2(d)) gives consideration to the effects and possible interactions resulting from their combined application with the requirements set out in Section 2, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.4.1  Do you identify interactions between the RMS and the other requirements of Section 2?",
+          "Guiding Questions": "9.4.1  Do you identify interactions between the RMS and the other requirements of Section 2?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.4.2 How is the RMS designed to enable compliance with all Section 2 requirements, inlcuding when these are affected by system modifications?",
+          "Guiding Questions": "9.4.2 How is the RMS designed to enable compliance with all Section 2 requirements, inlcuding when these are affected by system modifications?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.4.4 How do you balance RMS implementation with other Section 2 requirements?",
+          "Guiding Questions": "9.4.4 How do you balance RMS implementation with other Section 2 requirements?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.4.5 How do you justify the trade-off between RMS implementation and that of other requirements in Section 2?",
+          "Guiding Questions": "9.4.5 How do you justify the trade-off between RMS implementation and that of other requirements in Section 2?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.4.6 What inherent and foreseeable risks arise from your chosen trade-off strategy?",
+          "Guiding Questions": "9.4.6 What inherent and foreseeable risks arise from your chosen trade-off strategy?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     5. The risk management measures (Article 9.2(d)) are so that the residual risk associated with each hazard, as well as the overall residual risk of the AI system, is judged to be acceptable.",
+      "Compliance checklist": "5. The risk management measures (Article 9.2(d)) are so that the residual risk associated with each hazard, as well as the overall residual risk of the AI system, is judged to be acceptable.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●  9.5.1  Which hazards are present in your specific application?",
+          "Guiding Questions": "9.5.1  Which hazards are present in your specific application?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.5.2 How do you define “acceptable residual risk” and how is it measured?",
+          "Guiding Questions": "9.5.2 How do you define “acceptable residual risk” and how is it measured?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.5.3 What are the residual risks for each hazard, and why are they judged acceptable?",
+          "Guiding Questions": "9.5.3 What are the residual risks for each hazard, and why are they judged acceptable?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.5.4 What is the overall residual risk of the AI system, and why is it judged acceptable?",
+          "Guiding Questions": "9.5.4 What is the overall residual risk of the AI system, and why is it judged acceptable?",
           "In-Context": ""
         }
       ]
@@ -243,111 +243,111 @@
       "_children": []
     },
     {
-      "Compliance checklist": "●     5(a). Elimination or reduction of risks identified as far as technically feasible by adequate design and development of the High-Risk AI system.",
+      "Compliance checklist": "5(a). Elimination or reduction of risks identified as far as technically feasible by adequate design and development of the High-Risk AI system.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.5.a.1 What technical strategies in design and development have you implemented to eliminate or reduce the risks identified under Article 9.2?",
+          "Guiding Questions": "9.5.a.1 What technical strategies in design and development have you implemented to eliminate or reduce the risks identified under Article 9.2?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.5.a.2  How do your chosen solutions eliminate or reduce these risks? Which alternatives did you consider, and why was your chosen approach preferred?",
+          "Guiding Questions": "9.5.a.2  How do your chosen solutions eliminate or reduce these risks? Which alternatives did you consider, and why was your chosen approach preferred?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●  9.5.a.3   Are there any technical limitations of your solution?",
+          "Guiding Questions": "9.5.a.3   Are there any technical limitations of your solution?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     5(b). (Where appropriate) Implementation of adequate mitigation and control measures addressing risks that cannot be eliminated.",
+      "Compliance checklist": "5(b). (Where appropriate) Implementation of adequate mitigation and control measures addressing risks that cannot be eliminated.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.5.b.1 Why can certain risks not be eliminated? For each risk you considered non-eliminable, provide the infeasibility analysis showing why elimination is not reasonable.",
+          "Guiding Questions": "9.5.b.1 Why can certain risks not be eliminated? For each risk you considered non-eliminable, provide the infeasibility analysis showing why elimination is not reasonable.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.5.b.2 What mitigation and control measures have you implemented for risks that cannot be eliminated, and why were these measures chosen?",
+          "Guiding Questions": "9.5.b.2 What mitigation and control measures have you implemented for risks that cannot be eliminated, and why were these measures chosen?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     5(c). Provision of information (following Article 13) and, where appropriate, training to the deployer so as to eliminate or reduce risks related to the use of the high-risk AI system taking into consideration technical knowledge, experience, education, expected training by the deployer, and the presumable context in which the system is intended to be used.",
+      "Compliance checklist": "5(c). Provision of information (following Article 13) and, where appropriate, training to the deployer so as to eliminate or reduce risks related to the use of the high-risk AI system taking into consideration technical knowledge, experience, education, expected training by the deployer, and the presumable context in which the system is intended to be used.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.5.c.1 Which information required by Article 13 is provided to deployers to eliminate or reduce risks?",
+          "Guiding Questions": "9.5.c.1 Which information required by Article 13 is provided to deployers to eliminate or reduce risks?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   9.5.c.2  What AI literacy according to Art.4 (i.e., technical knowledge, experience, education, training) do you require from deployers so they can reduce or eliminate risks?",
+          "Guiding Questions": "9.5.c.2  What AI literacy according to Art.4 (i.e., technical knowledge, experience, education, training) do you require from deployers so they can reduce or eliminate risks?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.5.c.3 How does the AI literacy account for the specific context of use, in particular with respect to the persons or groups of persons on whom the AI system is to be used?",
+          "Guiding Questions": "9.5.c.3 How does the AI literacy account for the specific context of use, in particular with respect to the persons or groups of persons on whom the AI system is to be used?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.5.c.4  Is application-specific training appropriate for deployers of this system? Why or why not?",
+          "Guiding Questions": "9.5.c.4  Is application-specific training appropriate for deployers of this system? Why or why not?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   9.5.c.5  What level of AI literacy do you expect your deployers to have?",
+          "Guiding Questions": "9.5.c.5  What level of AI literacy do you expect your deployers to have?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     6. The High-risk AI system is tested for the purpose of identifying the most appropriate and targeted risk management measures, ensuring consistent performance for its intended purpose, and is in compliance with the requirements set out in Section 2.",
+      "Compliance checklist": "6. The High-risk AI system is tested for the purpose of identifying the most appropriate and targeted risk management measures, ensuring consistent performance for its intended purpose, and is in compliance with the requirements set out in Section 2.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.6.1 Do you verify that testing of the AI system is performed under conditions that are representative of the production environment and performs consistently for its intended purpose?",
+          "Guiding Questions": "9.6.1 Do you verify that testing of the AI system is performed under conditions that are representative of the production environment and performs consistently for its intended purpose?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●    9.6.2 If not, what is the risk that the chosen risk management measures will fail to protect health, safety or fundamental rights?",
+          "Guiding Questions": "9.6.2 If not, what is the risk that the chosen risk management measures will fail to protect health, safety or fundamental rights?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   9.6.3 How do you select the most appropriate and targeted risk management measures? Which alternatives were considered and why was the chosen option selected?",
+          "Guiding Questions": "9.6.3 How do you select the most appropriate and targeted risk management measures? Which alternatives were considered and why was the chosen option selected?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     7. (Optional) The High-risk AI system is tested for the purpose of identifying the most appropriate and targeted risk management measures, ensuring consistent performance for its intended purpose, in real-world conditions outside AI regulatory Sandboxes (Art. 60).",
+      "Compliance checklist": "7. (Optional) The High-risk AI system is tested for the purpose of identifying the most appropriate and targeted risk management measures, ensuring consistent performance for its intended purpose, in real-world conditions outside AI regulatory Sandboxes (Art. 60).",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   9.7.1 Did you perform testing in real-world conditions outside an AI regulatory sandbox? If yes, did you comply with the Article 60 requirements?",
+          "Guiding Questions": "9.7.1 Did you perform testing in real-world conditions outside an AI regulatory sandbox? If yes, did you comply with the Article 60 requirements?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●  9.7.2 If no, why did you not test in real-world conditions, and what alternative steps did you take to validate system safety?",
+          "Guiding Questions": "9.7.2 If no, why did you not test in real-world conditions, and what alternative steps did you take to validate system safety?",
           "In-Context": ""
         },
         {
@@ -358,13 +358,13 @@
       ]
     },
     {
-      "Compliance checklist": "●     8. The testing of high-risk AI systems is performed as appropriate, at any time throughout the development process, and, in any event, before deployment. Testing is carried out using prior defined appropriate metrics for the intended purpose.",
+      "Compliance checklist": "8. The testing of high-risk AI systems is performed as appropriate, at any time throughout the development process, and, in any event, before deployment. Testing is carried out using prior defined appropriate metrics for the intended purpose.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   9.8.1 Which metrics and probabilistic thresholds have you defined for the system’s intended purpose, and why are they appropriate?",
+          "Guiding Questions": "9.8.1 Which metrics and probabilistic thresholds have you defined for the system’s intended purpose, and why are they appropriate?",
           "In-Context": ""
         },
         {
@@ -379,56 +379,56 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●  9.8.2  At which stages of development were tests performed?",
+          "Guiding Questions": "9.8.2  At which stages of development were tests performed?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●  9.8.3 Was the system tested prior to market/service release? Consider providing evidence.",
+          "Guiding Questions": "9.8.3 Was the system tested prior to market/service release? Consider providing evidence.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●  9.8.4 How do you ensure pre-defined metrics and thresholds remain compatible with real-world conditions and the intended context of use?",
+          "Guiding Questions": "9.8.4 How do you ensure pre-defined metrics and thresholds remain compatible with real-world conditions and the intended context of use?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.8.5 How will metrics and thresholds be adapted for real world scenarios and real-world data (i.e., unexpected data features, new feature types)?",
+          "Guiding Questions": "9.8.5 How will metrics and thresholds be adapted for real world scenarios and real-world data (i.e., unexpected data features, new feature types)?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     9. During the High-risk AI system implementation, providers considered whether or not it is likely to have a negative impact on persons under the age of 18 or other vulnerable groups in view of the system intended purpose.",
+      "Compliance checklist": "9. During the High-risk AI system implementation, providers considered whether or not it is likely to have a negative impact on persons under the age of 18 or other vulnerable groups in view of the system intended purpose.",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.9.1 Can you foresee any adverse impacts on persons under 18 or other vulnerable groups from the use of this system?",
+          "Guiding Questions": "9.9.1 Can you foresee any adverse impacts on persons under 18 or other vulnerable groups from the use of this system?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●     9.9.2 If yes, which impacts, and how does your RMS mitigate them?",
+          "Guiding Questions": "9.9.2 If yes, which impacts, and how does your RMS mitigate them?",
           "In-Context": ""
         }
       ]
     },
     {
-      "Compliance checklist": "●     10. The aspects provided in 9.1 to 9.9 are a part of, or combined with, the risk management procedures established under other relevant provisions of Union law. \n\n(Intended for providers of High-risk AI systems that are subject to requirements regarding internal risk management processes under other relevant provisions of Union Law.)",
+      "Compliance checklist": "10. The aspects provided in 9.1 to 9.9 are a part of, or combined with, the risk management procedures established under other relevant provisions of Union law. \n\n(Intended for providers of High-risk AI systems that are subject to requirements regarding internal risk management processes under other relevant provisions of Union Law.)",
       "Guiding Questions": "",
       "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   9.10.1 Which other Union Law provisions that impose internal risk management obligations on this system have you identified?",
+          "Guiding Questions": "9.10.1 Which other Union Law provisions that impose internal risk management obligations on this system have you identified?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   9.10.2 How are those internal risk management systems integrated with the RMS established under the AI Act?",
+          "Guiding Questions": "9.10.2 How are those internal risk management systems integrated with the RMS established under the AI Act?",
           "In-Context": ""
         }
       ]
