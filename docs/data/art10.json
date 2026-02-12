@@ -6,719 +6,582 @@
     {
       "Compliance checklist": "2. Data governance and management practices should be appropriate for the intended purpose of the high-risk AI system and concern:",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": []
     },
     {
       "Compliance checklist": "2(a) Design choices for the testing data.",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.1  Which format did you use for CVs and job description (e.g., structured template vs unstructured format lilke .pdf)?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.2 What assumptions about data quality or availability have been made?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.3 Does the data pre-processing pipeline include parsing of unstructured input data? If so, how was it conducted?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.4   Which languages are supported for CVs and job description? If applicable, how does translation occurs and how did you check for its quality?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.5 In case of unstructured input data, is the output of the parsing pipeline structured according to a homogenous template? Which information are extracted and why?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.6  Why did you choose to use a public and/or private test dataset?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.7  Is the test data you choose representative of the real context of use of the system?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.8 How did you choose the target labels for testing?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.9 How did you choose the evaluation metrics for testing?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.a.10 How did you choose to annotate your testing data, if needed? If humans were involved:",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "○     How was the selection of human annotators conducted, for example, in terms of the competencies of AI literacy and domain expertise?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "○     Do human annotators have an internal or external function within the organisation?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "○     Did you design the annotation process so to ensure the inclusion of a variety of perspectives?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "2(b) Sources and collection processes for the testing data, including details on the original purpose, in case personal data is involved.",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.b.1 Are the sources of the testing data comprehensively documented in either internal or external documents?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.b.2   How does the collection process handle data covered by copyright? Is the final collected data protected by copyright?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.b.3  How does the collection process handle possibly illegal (e.g., offensive or non-consensual) data? Does the final collected data contain possibly illegal data?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.b.4  Are the data sources for testing data all public? If not, which private data sources did you collect data from?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.b.5  Do the data sources for testing data contain personal information? If so, did you record their original purpose? Moreover, if special categories of personal data are included, did you comply with Article 10(5)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.b.6  How is test data tracked or updated? In the case of update, please provide a detailed account of the sources of additional test data (e.g., feedback loops) and of the collection processes",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.b.7  Did you record the data collection procedure, including the computational methods employed for extraction (e.g., discriminative or generative methods)?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "2(c) Pre-processing steps taken to clean, annotate, label, update, enrich and aggregate the testing data",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.c.1 Was data cleaning carried out during the preprocessing of the testing data? If so, please provide a detailed account of the procedures that were implemented.",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.c.2  Was data annotation carried out during the preprocessing of the testing data? If so, please provide a detailed account of the procedures that were implemented. In particular, how were candidate scores generated for testing?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.c.3   Was data annotation conducted through automated tasks and/or humans? How was the annotation process carried out?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.c.4 To ensure the inclusion of a variety of perspectives, were there multiple annotators involved? How did you account for their potential disagreement?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.c.5 Was testing data enriched during preprocessing (e.g., with synthetic data)? If so, please provide a detailed account of the procedures that were implemented.",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.c.6  Was testing data aggregation carried out during the preprocessing of the testing data? If so, please provide a detailed account of the procedures that were implemented for aggregating both input data and labels.",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.c.7   Is test data updated periodically? If so, please provide a detailed account of the pre-processing steps that were implemented to update the test data, inlcuding strategies for handling inconsistency with respect to historical test data.",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "2(d) The formulation of assumptions, in particular with respect to the information that the testing data are supposed to measure and represent",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.1 Which elements of the candidate’s CV do you treat as predictors of future job performance, and are those features included in your testing dataset?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.2  What explicit assumptions are you making about which candidate features (e.g., education, work history, test results) are predictive of job performance?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.3  Do you assume equivalence between similar qualifications across different geographies, education systems, or socio-economic backgrounds?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.4  Do the datasets measure competencies directly relevant to the role or are proxies being used?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.5  Are you making assumptions about cultural fit or personality traits that may not be objectively measurable?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.6  Are assumptions about “successful” past candidates potentially perpetuating historical underrepresentation or bias?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.7  Do the assumptions in the testing data hold across different contexts, such as job functions or geographical contexts?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.8  Are assumptions regularly revisited and updated as the nature of work and job requirements evolve?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.9 What is the expected pool of applicants (e.g., in term of demographics, geographies, educational qualification systems, or socio-economic backgrounds)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.d.10 How did you ensure that the target label represents the intended purpose of the system? Please, provide a detailed account taking into consideration all intermediate steps of the pipeline, in particular the output of the candidate scoring step",
-          "In-Context": "X"
         }
       ]
     },
     {
       "Compliance checklist": "2(e) The assessment of availability, quantity and suitability of the testing data",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.e.1 Although you opted for a pipeline based on a closed-LLM with no fine-tuning, did you also assess the availability, quantity, and suitability of data in view of implementing an alternative pipeline that instead supports the possibility of conducting training and fine-tuning other than testing? If so, please provide documentation and justification for this assessment and decision.",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.e.2   Could you find data that was compatible with your context of use to test the model? What strategies did you employ to address the potential lack of data?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.e.3 In order to accurately represent and measure the task(s) the model is intended to carry out within the context of use, how did you guarantee that all information contained in the test data was comprehensive and sufficient?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.e.4   Is the size of the test sample large enough to guarantee statistical significance of the assessments, including when stratified by features of interest (e.g., assessment of fairness metrics)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.e.5    Is the testing dataset representative of the diversity of applicants expected in deployment (gender, age, disability, ethnicity, educational background, etc.) for each job application option?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.e.6  Could you identify persons or groups of persons at risk of being underrepresented in the testing data? If so, how is this addressed?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "2(f) An examination of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.1  According to which legislation (e.g, Chart of Fundamental Rights, EU and national legislations) did you define biases in your application?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.2   Have potential sources of bias been identified in the test dataset? For instance:",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "○     does input data contain sensitive attributes (e.g., gender, ethnicity, disability, age, socio-economic background)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "○     are the outputs of the AI system (e.g., shortlisted candidates) used as inputs for future training or testing datasets? If yes, could this feedback loop reinforce historical underrepresentation or biased patterns (e.g., fewer women in STEM roles leading to fewer women being shortlisted in the future)?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "○     are the testing procedures sufficient to identify biases derived from upstream and/or external data sources that feed the AI system?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.3  In which way the identified biased AI outputs may affect downstream processes (e.g., interview invitations, job offers)?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.4  Could proxy variables (like postal code, education institution, or employment gaps) indirectly encode protected characteristics?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.5  Are there risks that automated rejection patterns disproportionately affect vulnerable groups, leading to social or economic harm?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.6  Are performance metrics (e.g., job success indicators) appropriate for the specific context of use?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.10  How is transparency ensured so that the deployer (i.e., recruiters) understand the assumptions and risks in the use of the AI system?",
-          "In-Context": "X"
         }
       ]
     },
     {
       "Compliance checklist": "2(g) Appropriate measures to detect, prevent and mitigate such biases are put in place (if identified in (f)).",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.g.1   Which techniques and processes did you put in place to detect bias before deployment?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.g.2  Which bias detection techniques (e.g., statistical parity checks and adverse impact analysis) been applied to the testing datasets? For instance, did you assess for imbalance in representation of groups across sensitive attributes and target-related stratification (e.g., job description or level)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.g.3  Did you perform bias testing across the full recruitment funnel (parsing, scoring, screening)?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.g.4  How are proxy variables (like postal code, education institution, or employment gaps) detected and how is the bias deriving from them prevented and mitigated?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.g.5  How frequently is bias re-assessed as data or models are updated?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.g.6  Which techniques and processes did you put in place to prevent bias?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.g.7 In order to prevent biases, were steps taken during data collection to ensure that protected groups were adequately represented in the testing datasets?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.g.8  Did you verify that data pre-processing steps (e.g., normalization, feature engineering) don’t amplify existing disparities?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.g.9 Are domain experts in HR or ethics involved in reviewing design choices and non-discriminatory assumptions?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.10 If bias is identified, what corrective steps (e.g., rebalancing, re-weighting, human oversight, abstention mechanism) are taken before deployment?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.11  How do you ensure that bias mitigation does not negatively affect model performance or robustness of predictions?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.12  How did you mitigate biases arising from feedback loops (i.e., where biased outputs, such as favoring certain profiles, influence future data collection)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.13  Are rejected or underrepresented candidates systematically excluded from future data? How did you prevent and mitigate the risks that automated rejection patterns disproportionately affect vulnerable groups?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.f.14 Are there mechanisms to audit long-term effects of AI-driven hiring on workforce diversity and equal opportunity?",
-          "In-Context": "X"
         }
       ]
     },
     {
       "Compliance checklist": "2(h) the identification of relevant data gaps or shortcomings preventing compliance with AIA are identified and addressed",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.h.1 What mechanisms are in place to systematically identify missing, incomplete, or low-quality data in the testing datasets?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.h.2 Are there particular job categories, applicant demographics (protected groups in particular), or stages in the recruitment pipeline where data are sparse or inconsistent?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.h.3 Are there variables or indicators crucial for fairness assessment (e.g., socio-economic background, accessibility needs) that are not currently collected or are unavailable?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.h.4 How could existing data gaps or quality issues affect the system’s accuracy, robustness, fairness, transparency and auditability of recruitment outcomes?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.h.5 What processes exist for addressing identified data gaps (e.g., data augmentation, collection of new representative samples, re-weighting)? What are the possible limitations of these processes?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.2.h.6   How does the system handle out-of-distribution samples (after deployment)?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "3. The testing data is relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose\n[They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used. Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.]",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "For suitability of testing data, refer also to the guiding questions related to Article 10 (2)(e)",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.1 What quality control measures are in place to detect and correct errors, duplicates, or inconsistencies in the data",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.2 Does the information included in the testing dataset (e.g., candidate profiles, assessment formats) sufficiently representative, free of errors and complete to reproduce the recruitment tasks or decisions the AI system is designed to support (e.g., screening, scoring, ranking)? If so, justify why",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.3 Are all data attributes included in the testing dataset directly relevant to job performance or role requirements? Or are there confounding, irrelevant, inconsistent or outdated variables (e.g., university prestige which is a typical proxy for economical background) that could introduce bias or noise?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.4 Does the testing dataset include sufficient diversity across protected characteristics (gender, age, ethnicity, disability, nationality, etc.) and job categories to detect differential performance or bias? How did you statistically measure representativeness?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.5 Is the representation of different applicant groups proportionate to the actual or expected applicant pool? How did you statistically measure representativeness?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.6 Does the testing dataset include sufficient diversity across protected characteristics (gender, age, ethnicity, disability, nationality, etc.) and job categories to detect differential performance or bias? How did you statistically measure representativeness?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.7 Are there missing values or incomplete candidate profiles, and how are they handled (e.g., imputation, exclusion, flagging)? How do you identify missing information?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.8 Are statistical tests performed to ensure that model performance metrics (e.g., accuracy, false positives/negatives) are not significantly different across protected attributes and job categories?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.9 If combining multiple datasets (e.g., test data + real-world recruitment data), how are differences in data quality, structure, and sampling handled?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.10 If you use real-world historic data, how are human errors, subjectivity or change in hiring requirements in past recruitment evaluations (e.g., human labels for the candidate scoring task) accounted for or corrected in the testing data?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.3.11 How often is the representativeness and quality of the testing data reviewed or updated? Are there procedures to detect data drift or performance degradation over time?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "4. The testing datasets takes into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.4.1 Does the testing dataset reflect the geographical region(s) where the recruitment AI system will be used (e.g., EU country, language, educational qualification system)?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.4.2 Are differences in education systems, qualifications, or job titles between geographical regions represented appropriately to grant robust predictions?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.4.3 If input data is not standardized, how are contextual differences in data format (e.g., CV language and structure) accounted for and possibly harmonized?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.4.4 Does the testing dataset capture the specific recruitment context and hiring criteria (e.g., corporate hiring vs public sector recruitment, hiring of special employment categories)?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.4.5 Does the testing dataset reflect realistic applicant pools and job types for the intended context of use?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.4.6 Does the dataset account for differences in how candidates present themselves (e.g., communication styles, self-promotion tendencies, use of generative AI tools)? Is the AI system capable of handling them to avoid distortion in interpreting input data?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.4.7 How often are datasets reviewed to ensure continued relevance to the geographical, contextual and behavioral setting during production (e.g., after market or organizational changes)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.4.8 Are there mechanisms for human oversight to identify when contextual drift (e.g., new hiring practices or regional expansion) invalidates previous data assumptions? Which actions will be triggered?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.4.9    Does the AI system pipeline reflect the procedures typically conducted to accomplish the intended goal in the specific context of use?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "5. In order to comply with Article 10 (2)(e)-(f) the provider may exceptionally process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons. In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur:",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": []
     },
     {
       "Compliance checklist": "5(a) The bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data;",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.a.1  Have you clearly identified what forms of bias (e.g., gender, ethnicity, disability) the recruitment AI system aims to detect and correct (see also Article 10(2)(e)?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.a.2  In order to fullfill bias detection and correction as for Article 10(2)(f-g), did you use anonymised or synthetic data? If not, justify the need for processing special categories of personal data.",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "5(b) the special categories of personal data are subject to technical limitations on the re-use of the personal data, and state-of-the-art security and privacy-preserving measures, including pseudonymisation;",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.b.1 Have you implemented technical safeguards, such as pseudonymisation, encryption, or secure data environments, to protect special categories of personal data during processing?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.b.2  Have you assessed whether pseudonymisation sufficiently reduces the risk of re-identification within the recruitment context (e.g., small applicant pools)?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.b.3 Have you documented and enforced purpose limitation rules preventing the re-use of special categories of personal data for other functions?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.b.4  Are logs or audit trails in place to record who accessed special categories of personal data, when, and for what purpose?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.b.5  Have you verified that data storage and processing environments meet state-of-the-art security standards (e.g., encrypted storage, network isolation)?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "5(c) the special categories of personal data are subject to measures to ensure that the personal data processed are secured, protected, subject to suitable safeguards, including strict controls and documentation of the access, to avoid misuse and ensure that only authorised persons have access to those personal data with appropriate confidentiality obligations;",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.c.1 Have you implemented access controls, (e.g., logs, monitoring, auditing mechanisms, access restrictions, role-based permission), to ensure that only authorised personnel can access special categories of personal data?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.c.2  Are confidentiality obligations formally in place for all staff or third parties who have access to these data (e.g., through contracts or NDAs)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.c.3  Are data protections environment for bias detection equally compliant with points 5.c.1 and 5.c.2 and well separated from the main operation recruitment system to reduce security issues?",
-          "In-Context": "X"
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.c.4 Do you ensure that any third-party tools or service providers involved in testing or bias correction comply with equivalent security and confidentiality standards?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "5(d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.d.1  Have you clearly defined which entities and personnel are authorised to access special categories of personal data used for bias detection in recruitment?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.d.2  Have you implemented technical controls (e.g., role-based access, network restrictions, data encryption), business agreements and/or internal policies to ensure such data cannot be transmitted or shared outside authorised environments or with third parties (e.g., external vendors, auditors, cloud providers)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.d.3  Have you verified that cloud storage, data hosting, or model testing environments do not allow external access or external data transfer of special categories of personal data?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.d.4  Are data export, download, or sharing functionalities disabled or restricted for datasets containing sensitive demographic attributes?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.d.5  Do system logs or audit trails record all instances of access to special categories of personal data, enabling detection of any unauthorised viewing or transmission?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "5(e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of its retention period, whichever comes first;",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.e.1 Have you defined a clear retention period for special categories of personal data used in bias detection?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.e.2  Do you have a documented procedure specifying when and how such data must be deleted once bias has been corrected?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.e.3  Is the deletion process responsibility clearly described, assigned and documented?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.e.4  If the deletion process is automated, does this automation have clearly described technical guarantees?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.e.5  Are deletion events logged and verifiable through audit records and logs?",
-          "In-Context": ""
         }
       ]
     },
     {
       "Compliance checklist": "5(f) the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 include the reasons why the processing of special categories of personal data was strictly necessary to detect and correct biases, and why that objective could not be achieved by processing other data.",
       "Guiding Questions": "",
-      "In-Context": "",
       "_children": [
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.f.1 Have you documented in your records of processing activities the exact bias detection or correction purpose for which special categories of personal data were processed (e.g., checking differential model accuracy across gender or ethnicity)?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.f.2  Have you clearly justified why other data types (such as anonymised or synthetic data) could not achieve equivalent bias detection or correction results?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "10.5.f.3  Have you recorded how “strict necessity” was assessed, for instance, through a technical or statistical analysis showing that bias could not be reliably detected without such data?",
-          "In-Context": ""
         },
         {
           "Compliance checklist": "",
           "Guiding Questions": "If the AI system has been developed by integrating GPAI models, what transparency measures have been adopted, taking into account the specific characteristics of such models? What technical measures and contractual safeguards have been put in place?",
-          "In-Context": ""
         }
       ]
     }
