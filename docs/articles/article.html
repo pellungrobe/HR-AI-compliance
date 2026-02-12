@@ -38,7 +38,7 @@ a {
 /* Tabulator styling overrides */
 .tabulator {
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .tabulator-header {
@@ -192,14 +192,16 @@ a {
             formatter: wrapFormatter,
             widthGrow: 2,
             headerSort: false,
-            frozen: true
+            frozen: true,
+            variableHeight: true
           },
           {
             title: "Guiding Questions",
             field: "Guiding Questions",
             formatter: wrapFormatter,
             widthGrow: 3,
-            headerSort: false
+            headerSort: false,
+            variableHeight: true
           }
         ]
       });
