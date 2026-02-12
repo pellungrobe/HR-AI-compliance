@@ -62,6 +62,29 @@
       return `<div style="white-space:pre-wrap; line-height:1.25;">${esc}</div>`;
     }
 
+    function stripEmptyChildren(rows){
+      if (!Array.isArray(rows)) return rows;
+
+      return rows.map(r => {
+        const row = {...r};
+
+        if (Array.isArray(row._children)) {
+          // recurse first (in case you ever have deeper nesting)
+          row._children = stripEmptyChildren(row._children);
+
+          // IMPORTANT: if empty, delete the field so Tabulator won't show "+"
+          if (row._children.length === 0) {
+            delete row._children;
+          }
+        } else if (row._children == null) {
+          // if it's null/undefined, also remove
+          delete row._children;
+        }
+
+        return row;
+      });
+    }
+
     async function init() {
       // Load the JSON (contains requirement + rows)
       const resp = await fetch(jsonUrl);
@@ -81,9 +104,11 @@
       document.getElementById("requirement").textContent =
         payload.requirement || "(No requirement text found in JSON)";
 
+      const cleanRows = stripEmptyChildren(payload.rows || []);
+
       // Build table
       const table = new Tabulator("#table", {
-        data: payload.rows || [],
+        data: cleanRows,
         layout: "fitColumns",
         responsiveLayout: "collapse",
         pagination: false,
