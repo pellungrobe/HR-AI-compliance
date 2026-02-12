@@ -137,7 +137,7 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "— Art.79(1) —",
+          "Guiding Questions": "Art.79(1) —",
           "In-Context": ""
         },
         {
@@ -162,7 +162,7 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.3     When defining logging triggers, how do you capture the distinction between the system’s intended purpose (Art. 3(12)) and reasonably foreseeable misuse (Art. 3(13))? For example, if a recruitment AI system is applied outside its validated demographic scope, is this treated and logged as a misuse event?",
+          "Guiding Questions": "●12.2.a.2     When defining logging triggers, how do you capture the distinction between the system’s intended purpose (Art. 3(12)) and reasonably foreseeable misuse (Art. 3(13))? For example, if a recruitment AI system is applied outside its validated demographic scope, is this treated and logged as a misuse event?",
           "In-Context": "X"
         },
         {
@@ -172,87 +172,87 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.4     Is the granularity of logs defined in such a way that it is possible to reconstruct whether a given decision was within the system’s intended use? (i.e., logging that the candidate’s origin was outside the originally approved demographic).",
+          "Guiding Questions": "●12.2.a.3     Is the granularity of logs defined in such a way that it is possible to reconstruct whether a given decision was within the system’s intended use? (i.e., logging that the candidate’s origin was outside the originally approved demographic).",
           "In-Context": "X"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.5     For each flagged risk event, which contextual attributes do you record to allow a retrospective “root-cause” analysis? (i.e., input snapshot, model version, pipeline steps, timestamp, user or service ID that invoked the decision, GPT in-context learned snapshot up to the risk event)",
+          "Guiding Questions": "●12.2.a.4     For each flagged risk event, which contextual attributes do you record to allow a retrospective “root-cause” analysis? (i.e., input snapshot, model version, pipeline steps, timestamp, user or service ID that invoked the decision, GPT in-context learned snapshot up to the risk event)",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.6     How do you log instances where the system is used in ways that deviate from its normal or expected use? (For example, if a recruitment AI system designed for screening engineer-level candidates is applied to executive-level profiles.)",
+          "Guiding Questions": "●12.2.a.5     How do you log instances where the system is used in ways that deviate from its normal or expected use? (For example, if a recruitment AI system designed for screening engineer-level candidates is applied to executive-level profiles.)",
           "In-Context": "X"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.7     Once a risk-presenting event is logged, who must be notified?",
+          "Guiding Questions": "●12.2.a.6     Once a risk-presenting event is logged, who must be notified?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.8     Did you define a priority hierarchy among the notified persons (e.g. first the provider then the recruiters)?",
+          "Guiding Questions": "●12.2.a.7     Did you define a priority hierarchy among the notified persons (e.g. first the provider then the recruiters)?",
           "In-Context": "X"
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.9     Which criteria trigger an immediate real-time alert versus a periodic report?",
+          "Guiding Questions": "●12.2.a.8     Which criteria trigger an immediate real-time alert versus a periodic report?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.10     How should alerts be routed (i.e., email, ticketing, SMS to on-call engineer)?",
+          "Guiding Questions": "●12.2.a.9     How should alerts be routed (i.e., email, ticketing, SMS to on-call engineer)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.11     What downstream workflows must be invoked once a risk log is created? (i.e. automatic freeze of new decisions pending human review)",
+          "Guiding Questions": "●12.2.a.10     What downstream workflows must be invoked once a risk log is created? (i.e. automatic freeze of new decisions pending human review)",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "— Art.3(23) —",
+          "Guiding Questions": "Art.3(23) —",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.12     Which system changes do you classify as non-substantial modifications, meaning they do not alter the intended purpose or affect compliance with Chapter III Section 2 requirements? (i.e., accuracy and fairness assessment metrics remain within the bounds approved during initial conformity assessment)",
+          "Guiding Questions": "●12.2.a.11     Which system changes do you classify as non-substantial modifications, meaning they do not alter the intended purpose or affect compliance with Chapter III Section 2 requirements? (i.e., accuracy and fairness assessment metrics remain within the bounds approved during initial conformity assessment)",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.13     Which system modifications would you classify as falling outside the scope of pre-approved behaviours, and therefore potentially count as substantial modifications (e.g., replacing the underlying GPT model architecture with a new version)?",
+          "Guiding Questions": "●12.2.a.12     Which system modifications would you classify as falling outside the scope of pre-approved behaviours, and therefore potentially count as substantial modifications (e.g., replacing the underlying GPT model architecture with a new version)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.14     How do you distinguish “configuration modifications” (i.e., hyperparameter tuning with pre-approved ranges) from “substantial modifications\"? What metadata do you record to prove that a modification was within allowable bounds?",
+          "Guiding Questions": "●12.2.a.13     How do you distinguish “configuration modifications” (i.e., hyperparameter tuning with pre-approved ranges) from “substantial modifications\"? What metadata do you record to prove that a modification was within allowable bounds?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.15     Do you have rules in place to detect at run-time when updates or changes to system components (e.g., pipeline packages, libraries, or other dependencies) qualify as substantial modifications?",
+          "Guiding Questions": "●12.2.a.14     Do you have rules in place to detect at run-time when updates or changes to system components (e.g., pipeline packages, libraries, or other dependencies) qualify as substantial modifications?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.16     For a given substantial modification, which information is logged to ensure traceability? A non-exhaustive list should consider including: “modification” related information (i.e., switch to new inference engine); “versioning” related information (i.e., previous model -> new model version, pipeline code commit, if applicable pipeline container images); timestamps of activation of the modification; reason and/or justification for the modification (i.e., performance drift detected, feature engineering update); operator/actor who initiated the modification; affected components of the change (pipeline components, decision logics).",
+          "Guiding Questions": "●12.2.a.15     For a given substantial modification, which information is logged to ensure traceability? A non-exhaustive list should consider including: “modification” related information (i.e., switch to new inference engine); “versioning” related information (i.e., previous model -> new model version, pipeline code commit, if applicable pipeline container images); timestamps of activation of the modification; reason and/or justification for the modification (i.e., performance drift detected, feature engineering update); operator/actor who initiated the modification; affected components of the change (pipeline components, decision logics).",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.18    After a modification, which checks or automated tests must pass to demonstrate that the system continues to meet Chapter III, Section 2 requirements? (For example, bias audits, robustness tests, or accuracy benchmarks.)",
+          "Guiding Questions": "●12.2.a.16    After a modification, which checks or automated tests must pass to demonstrate that the system continues to meet Chapter III, Section 2 requirements? (For example, bias audits, robustness tests, or accuracy benchmarks.)",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.19     How do logs capture the results of such checks? (i.e., pass/fail, details, test metrics)",
+          "Guiding Questions": "●12.2.a.17     How do logs capture the results of such checks? (i.e., pass/fail, details, test metrics)",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.20     Once a modification is logged as substantial, is there an automated process that ensures that the AI product is flagged for a new conformity assessment?",
+          "Guiding Questions": "●12.2.a.18     Once a modification is logged as substantial, is there an automated process that ensures that the AI product is flagged for a new conformity assessment?",
           "In-Context": ""
         },
         {
@@ -262,12 +262,12 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.22 Once a modification event is logged, who is notified and who is authorized to see it? In case the modification is deeemed as substantial, who is notified?",
+          "Guiding Questions": "●12.2.a.19 Once a modification event is logged, who is notified and who is authorized to see it? In case the modification is deeemed as substantial, who is notified?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.23     How do you ensure that logs of risk-presenting events are fed back into system development and design improvements? For instance, if a specific model version consistently triggers risk flags, how are these logged insights transferred to and acted upon by the development team?",
+          "Guiding Questions": "●12.2.a.20     How do you ensure that logs of risk-presenting events are fed back into system development and design improvements? For instance, if a specific model version consistently triggers risk flags, how are these logged insights transferred to and acted upon by the development team?",
           "In-Context": ""
         },
         {
@@ -277,7 +277,7 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.24     If you willingly perform a substantial modification, how do you ensure that this event is logged? Which information do you log? For instance:",
+          "Guiding Questions": "●12.2.a.21     If you willingly perform a substantial modification, how do you ensure that this event is logged? Which information do you log? For instance:",
           "In-Context": ""
         },
         {
@@ -307,7 +307,7 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●12.2.a.25     If the substantial modifications refer to pre-allowed range of hyperparameters how can you trace those values in real-time thanks to the logs?",
+          "Guiding Questions": "●12.2.a.22     If the substantial modifications refer to pre-allowed range of hyperparameters how can you trace those values in real-time thanks to the logs?",
           "In-Context": ""
         }
       ]

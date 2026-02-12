@@ -266,7 +266,7 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●   Annex IV.2.b.4  Which persons or groups (demographic, linguistic, disability, cultural, or other subgroups) is the system not trained to recognise or handle appropriately, and what evidence supports this limitation?",
+          "Guiding Questions": "●   Annex IV.2.b.4  Which persons or groups of persons (demographic, linguistic, disability, cultural, or other subgroups) is the system not trained to recognise or handle appropriately, and what evidence supports this limitation?",
           "In-Context": ""
         },
         {
@@ -712,27 +712,27 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●Annex IV.3.16     Describe the specifications on the input data that you expect the AI system to be fed with.",
+          "Guiding Questions": "●Annex IV.3.14     Describe the specifications on the input data that you expect the AI system to be fed with.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●Annex IV.3.17     Have you verified that the input data used in practice fall within the boundaries (formats, ranges, sources, statistical properties) defined during validation and testing, and that they are sufficiently representative to ensure that the expected performance and risk profile of the AI system remain valid?",
+          "Guiding Questions": "●Annex IV.3.15     Have you verified that the input data used in practice fall within the boundaries (formats, ranges, sources, statistical properties) defined during validation and testing, and that they are sufficiently representative to ensure that the expected performance and risk profile of the AI system remain valid?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●Annex IV.3.18     Given your design, do you anticipate any deviations in the input data relative to the validation and testing data? How are these deviations detected and addressed?",
+          "Guiding Questions": "●Annex IV.3.16     Given your design, do you anticipate any deviations in the input data relative to the validation and testing data? How are these deviations detected and addressed?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●Annex IV.3.19  Do you expect conditions under which the input data may present characteristics such that the AI system will treat them as anomalies?",
+          "Guiding Questions": "●Annex IV.3.17  Do you expect conditions under which the input data may present characteristics such that the AI system will treat them as anomalies?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●Annex IV.3.20     Which data are expressively prohibited (e.g. in terms of format and/or content), and how are violations detected and logged?",
+          "Guiding Questions": "●Annex IV.3.18     Which data are expressively prohibited (e.g. in terms of format and/or content), and how are violations detected and logged?",
           "In-Context": ""
         }
       ]

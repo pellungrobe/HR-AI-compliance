@@ -310,27 +310,27 @@
       "_children": [
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.4.9    Is your system learning after deployment?",
+          "Guiding Questions": "●15.4.12    Is your system learning after deployment?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.4.10    Which inputs are used for learning after deployment (e.g., machine outputs, human feedback, monitoring and decisions)?",
+          "Guiding Questions": "●15.4.13    Which inputs are used for learning after deployment (e.g., machine outputs, human feedback, monitoring and decisions)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.4.11    How do you assess the effect that such inputs may have on the quality of data eventually leading to a change in fairness assessments?",
+          "Guiding Questions": "●15.4.14    How do you assess the effect that such inputs may have on the quality of data eventually leading to a change in fairness assessments?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.4.12    How are input data used by the AI system (i.e., in addition to processing, for instance for post-deployment learning)?",
+          "Guiding Questions": "●15.4.15    How are input data used by the AI system (i.e., in addition to processing, for instance for post-deployment learning)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.4.13 Can you describe the learning procedure where outputs are used as inputs in future operations?",
+          "Guiding Questions": "●15.4.16 Can you describe the learning procedure where outputs are used as inputs in future operations?",
           "In-Context": ""
         },
         {
@@ -345,7 +345,7 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.4.14    If the system continues to learn post-deployment, how do you ensure it prevents or reduces low-quality outputs from feeding future learning?",
+          "Guiding Questions": "●15.4.17    If the system continues to learn post-deployment, how do you ensure it prevents or reduces low-quality outputs from feeding future learning?",
           "In-Context": ""
         },
         {
@@ -365,12 +365,12 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.4.15 Which are the technical and organizational safeguards put in place so to guarantee that the new input data is not  poisoned (e.g. due to tampering by authorized or unauthorized personnnel)?",
+          "Guiding Questions": "●15.4.18 Which are the technical and organizational safeguards put in place so to guarantee that the new input data is not  poisoned (e.g. due to tampering by authorized or unauthorized personnnel)?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.4.16 Which are the technical and organizational safeguards put in place so to guarantee that the model has not been tampered with during the feedback loop procedure (e.g. due to adversarial attacks)?",
+          "Guiding Questions": "●15.4.19 Which are the technical and organizational safeguards put in place so to guarantee that the model has not been tampered with during the feedback loop procedure (e.g. due to adversarial attacks)?",
           "In-Context": ""
         }
       ]
@@ -412,12 +412,12 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.6    Which adversarial-robustness techniques (i.e., adversarial training, input preprocessing) are integrated to protect the model against adversarial attacks?",
+          "Guiding Questions": "●15.5.7    Which adversarial-robustness techniques (i.e., adversarial training, input preprocessing) are integrated to protect the model against adversarial attacks?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.7    Do you run automated penetration tests targeting AI-specific vulnerabilities?",
+          "Guiding Questions": "●15.5.8    Do you run automated penetration tests targeting AI-specific vulnerabilities?",
           "In-Context": ""
         },
         {
@@ -437,62 +437,62 @@
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.8    In case of incident (e.g. data poisoning, model poisoning), are logs and data securely collected to allow an appropriate post-incident analysis?",
+          "Guiding Questions": "●15.5.9    In case of incident (e.g. data poisoning, model poisoning), are logs and data securely collected to allow an appropriate post-incident analysis?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.9    Are access controls in place to prevent unauthorized use or modification of the system?",
+          "Guiding Questions": "●15.5.10    Are access controls in place to prevent unauthorized use or modification of the system?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.10    Are monitoring systems in place to detect tampering or misuse?",
+          "Guiding Questions": "●15.5.11    Are monitoring systems in place to detect tampering or misuse?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.11    Have you identified and addressed model flaws such as inherent design vulnerabilities?",
+          "Guiding Questions": "●15.5.12    Have you identified and addressed model flaws such as inherent design vulnerabilities?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.12    Do you have technical and organizational measures put in place to appropriately address Confidentiality attacks (e.g. leakage of training data)? Describe them.",
+          "Guiding Questions": "●15.5.13    Do you have technical and organizational measures put in place to appropriately address Confidentiality attacks (e.g. leakage of training data)? Describe them.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.13    Is a cybersecurity strategy in place, adapted to the context and risk profile of the system? Describe it and justify your design.",
+          "Guiding Questions": "●15.5.14    Is a cybersecurity strategy in place, adapted to the context and risk profile of the system? Describe it and justify your design.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.14    Which cybersecurity measures are in place to prevent cybersecurity attacks? Describe them and justify their appropriateness.",
+          "Guiding Questions": "●15.5.15    Which cybersecurity measures are in place to prevent cybersecurity attacks? Describe them and justify their appropriateness.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.15    Which cybersecurity measures are in place to detect incidents? Describe them and justify their appropriateness.",
+          "Guiding Questions": "●15.5.16    Which cybersecurity measures are in place to detect incidents? Describe them and justify their appropriateness.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.16    Which cybersecurity measures are in place to respond to breaches? Describe them and justify their appropriateness.",
+          "Guiding Questions": "●15.5.17    Which cybersecurity measures are in place to respond to breaches? Describe them and justify their appropriateness.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.17   Which cybersecurity measures are in place to resolve threats? Describe them and justify their appropriateness.",
+          "Guiding Questions": "●15.5.18   Which cybersecurity measures are in place to resolve threats? Describe them and justify their appropriateness.",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.18    Which cybersecurity measures are in place to control and monitor the system continuously?",
+          "Guiding Questions": "●15.5.19    Which cybersecurity measures are in place to control and monitor the system continuously?",
           "In-Context": ""
         },
         {
           "Compliance checklist": "",
-          "Guiding Questions": "●15.5.19    Are cybersecurity risks periodically reassessed (e.g., after updates or retraining)?If yes, how?",
+          "Guiding Questions": "●15.5.20    Are cybersecurity risks periodically reassessed (e.g., after updates or retraining)?If yes, how?",
           "In-Context": ""
         },
         {
